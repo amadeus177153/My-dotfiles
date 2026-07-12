@@ -1,12 +1,16 @@
 $HOME/.config/waybar/theme.css|${scrDir}/wbarconfgen.sh
-/* To enable blur please make sure alpha is greater than 0 */
-@define-color bar-bg rgba(0, 0, 0, 0.1); 
 
-@define-color main-bg #476A84;
-@define-color main-fg #D9D9D9;
+/* Fondo de la barra completa. (Usando tu azul más oscuro #011526 con 80% de opacidad) */
+@define-color bar-bg rgba(1, 21, 38, 0.8); 
 
-@define-color wb-act-bg #5A7D99;
-@define-color wb-act-fg #EFEFF5;
+/* Colores Base de Módulos (Inactivos) */
+@define-color main-bg #011C40; /* Un azul marino oscuro, ligeramente más claro que el fondo para que los módulos resalten un poco */
+@define-color main-fg #8DF2F2; /* Tu texto cian pastel para máxima legibilidad */
 
-@define-color wb-hvr-bg #7287FD;
-@define-color wb-hvr-fg #EFEFF5;
+/* Colores de Estado Activo (Workspace actual, notificaciones activas) */
+@define-color wb-act-bg #22F2F2; /* Cian Neón Brillante para indicar qué está activo */
+@define-color wb-act-fg #011526; /* Azul Noche profundo para que el texto o icono haga contraste sobre el fondo cian */
+
+/* Colores de Interacción (Mouse Hover) */
+@define-color wb-hvr-bg #EE05F2; /* Magenta Neón vibrante al pasar el mouse, da un efecto muy "cyberpunk" */
+@define-color wb-hvr-fg #011526; /* Azul Noche profundo para contrastar perfectamente sobre el magenta */

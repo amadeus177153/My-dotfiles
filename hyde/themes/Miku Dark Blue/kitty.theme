@@ -1,42 +1,79 @@
 $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
 
-# Nord Colorscheme for Kitty
+## name:     Miku Dark Blue
+## author:   Pocco81 (https://github.com/amadeus177153)
+## license:  MIT
+## blurb:    Soothing pastel theme for the high-spirited!
 
-foreground            #D8DEE9
-background            #2E3440
-selection_foreground  #000000
-selection_background  #FFFACD
-url_color             #0087BD
-cursor                #81A1C1
 
-# black
-color0   #3B4252
-color8   #4C566A
 
-# red
-color1   #BF616A
-color9   #BF616A
+# The basic colors
+foreground              #8DF2F2
+background              #011526
+selection_foreground    #0D0D0D
+selection_background    #05AFF2
 
-# green
-color2   #A3BE8C
-color10  #A3BE8C
+# Cursor colors
+cursor                  #22F2F2
+cursor_text_color       #011526
 
-# yellow
-color3   #EBCB8B
-color11  #EBCB8B
+# URL underline color when hovering with mouse
+url_color               #EE05F2
 
-# blue
-color4  #81A1C1
-color12 #81A1C1
+# Kitty window border colors
+active_border_color     #0420BF
+inactive_border_color   #011C40
+bell_border_color       #442D84
 
-# magenta
-color5   #B48EAD
-color13  #B48EAD
+# OS Window titlebar colors
+wayland_titlebar_color system
+macos_titlebar_color system
 
-# cyan
-color6   #88C0D0
-color14  #8FBCBB
+# Tab bar colors
+active_tab_foreground   #22F2F2
+active_tab_background   #021F59
+inactive_tab_foreground #245473
+inactive_tab_background #011C40
+tab_bar_background      #011526
 
-# white
-color7   #E5E9F0
-color15  #ECEFF4
+# Colors for marks (marked text in the terminal)
+mark1_foreground #011526
+mark1_background #05AFF2
+mark2_foreground #8DF2F2
+mark2_background #442D84
+mark3_foreground #011526
+mark3_background #EE05F2
+ 
+# The 16 terminal colors
+
+# black (Usando tus azules más profundos para fondos y comentarios)
+color0  #011526
+color8  #245473
+
+# red (Tonos rubí y rosa-carmesí neón para mantener el estilo)
+color1  #D90B59
+color9  #FF1A75
+
+# green (Tonos menta y verde mar neón, que combinan increíble con el azul)
+color2  #03A688
+color10 #05F2C7
+
+# yellow (Oro y amarillo eléctrico para advertencias vibrantes)
+color3  #D9B340
+color11 #F2DE77
+
+# blue (Tus azules eléctricos y vibrantes)
+color4  #0420BF
+color12 #0597F2
+
+# magenta (Tu morado profundo y tu magenta neón estrella)
+color5  #442D84
+color13 #EE05F2
+
+# cyan (Tus tonos cian puros)
+color6  #05AFF2
+color14 #22F2F2
+
+# white (Tu cian más pálido y una versión casi blanca para textos destacados)
+color7  #8DF2F2
+color15 #D0F8F8
