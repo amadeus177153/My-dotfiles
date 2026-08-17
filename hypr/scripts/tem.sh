@@ -1,0 +1,2 @@
+#!/bin/bash
+firefox > /dev/null 2>&1 & disown

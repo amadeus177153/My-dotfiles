@@ -1,5 +1,6 @@
 {
     "include": [
+        "/home/amadeus177153/.local/share/waybar/modules/user.json",
         "/home/amadeus177153/.local/share/waybar/modules/tray.json",
         "/home/amadeus177153/.local/share/waybar/modules/wlr-taskbar#windows.json",
         "/home/amadeus177153/.local/share/waybar/modules/image#wallpaper.json",
@@ -46,6 +47,7 @@
         "/home/amadeus177153/.local/share/waybar/modules/network#bandwidth.jsonc",
         "/home/amadeus177153/.local/share/waybar/modules/custom-app-launcher.jsonc",
         "/home/amadeus177153/.local/share/waybar/modules/backlight.jsonc",
+        "/home/amadeus177153/.local/share/waybar/modules/group-user-menu.jsonc",
         "/home/amadeus177153/.local/share/waybar/modules/custom-gamemode.jsonc",
         "/home/amadeus177153/.local/share/waybar/modules/mpris.jsonc",
         "/home/amadeus177153/.local/share/waybar/modules/gamemode.jsonc",
@@ -86,5 +88,12 @@
         "icon-size": 16,
         "icon-size-multiplier": 1.6
     },
-    "position": "top"
+    "position": "top",
+    "user": {
+        "format": "",
+        "interval": 60,
+        "height": 20,
+        "width": 20,
+        "icon": true
+    }
 }
