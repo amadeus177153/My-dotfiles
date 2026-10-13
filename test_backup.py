@@ -28,6 +28,7 @@ class PortableBackupTests(unittest.TestCase):
                 path.parent.mkdir(parents=True, exist_ok=True)
                 path.write_text(f'# source home {source}\n')
             (source / '.local/bin/hyde-shell').chmod(0o755)
+            (source / '.config/hypr/userprefs.lua').chmod(0o600)
             for name, content in {'.config/hypr/xdph.conf': 'custom_picker_binary = /old/picker\n',
                                   '.config/sunshine/sunshine.conf': 'output_name = 2\nlocale = en_US\n',
                                   '.config/zsh/.zsh_history': 'PRIVATE HISTORY',
@@ -42,6 +43,9 @@ class PortableBackupTests(unittest.TestCase):
             (source / '.local/share/icons/miku/cursors/default').symlink_to('pointer')
             b.snapshot(source, repo)
             manifest = b.verify(repo)
+            # Simulate a Git clone normalizing private modes to 0644.
+            (repo / 'home/.config/hypr/userprefs.lua').chmod(0o644)
+            b.verify(repo)
             self.assertNotIn('.config/zsh/.zsh_history', manifest['files'])
             self.assertNotIn('.config/zsh/.env', manifest['files'])
             before = manifest['assets']
@@ -62,6 +66,7 @@ class PortableBackupTests(unittest.TestCase):
             self.assertEqual((outside / 'keybindings.lua').read_text(), 'outside untouched')
             self.assertFalse((target / '.config/hypr').is_symlink())
             self.assertIn(str(target), (target / '.config/hypr/keybindings.lua').read_text())
+            self.assertEqual((target / '.config/hypr/userprefs.lua').stat().st_mode & 0o777, 0o600)
             self.assertIn('preferred', (target / '.config/hypr/monitors.lua').read_text())
             self.assertTrue((target / '.config/hypr/xdph.conf').read_text().startswith('#'))
             self.assertNotIn('output_name', (target / '.config/sunshine/sunshine.conf').read_text())

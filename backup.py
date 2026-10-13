@@ -277,7 +277,7 @@ def verify(repo):
             if not path.is_symlink() or os.readlink(path) != info['link']:
                 raise RuntimeError(f'Link integrity failed: {name}')
         elif (path.is_symlink() or not path.is_file() or digest(path) != info['sha256']
-              or stat.S_IMODE(path.stat().st_mode) != info['mode']):
+              or bool(path.stat().st_mode & 0o111) != bool(info['mode'] & 0o111)):
             raise RuntimeError(f'File integrity failed: {name}')
     for name in manifest['files']:
         path = repo / 'home' / name
@@ -392,6 +392,11 @@ def restore(args):
     with tempfile.TemporaryDirectory(prefix='hyde-restore-') as folder:
         stage = Path(folder)
         shutil.copytree(repo / 'home', stage, dirs_exist_ok=True, symlinks=True)
+        # Git stores only the executable bit; restore full source permissions
+        # from the manifest after a clone (e.g. private generated theme files).
+        for name, info in manifest['files'].items():
+            if 'mode' in info:
+                (stage / name).chmod(info['mode'])
         unpack_assets(repo, manifest, stage)
         adapt(stage, manifest['source_home'], home, args.keep_monitors)
         entries = [p for p in stage.rglob('*') if p.is_symlink() or p.is_file()]
