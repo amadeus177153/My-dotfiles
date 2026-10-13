@@ -1,0 +1,14 @@
+[Added Associations]
+application/x-zerosize=code-2.desktop;
+image/jpeg=feh-3.desktop;feh-2.desktop;
+text/plain=code-6.desktop;code-5.desktop;code-4.desktop;code-3.desktop;code.desktop;
+text/x-shellscript=code-7.desktop;
+video/mp4=mpv-3.desktop;mpv-2.desktop;
+
+[Default Applications]
+application/x-zerosize=code-2.desktop;
+image/jpeg=feh-3.desktop;
+inode/directory=org.kde.dolphin.desktop
+text/plain=code-6.desktop;
+text/x-shellscript=code-7.desktop;
+video/mp4=mpv-3.desktop;

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=MITHOS: Game Master's TTRPG Toolkit
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/3990740
+Icon=steam_icon_3990740
+Terminal=false
+Type=Application
+Categories=Game;

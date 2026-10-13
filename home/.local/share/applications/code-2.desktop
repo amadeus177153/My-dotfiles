@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=code
+MimeType=application/x-zerosize;
+Name=code
+NoDisplay=true
+Type=Application

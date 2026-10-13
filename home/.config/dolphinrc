@@ -1,0 +1,32 @@
+[General]
+BrowseThroughArchives=true
+GlobalViewProps=false
+HideXTrashFile=true
+ShowFullPathInTitlebar=true
+UseTabForSwitchingSplitView=true
+Version=202
+ViewPropsTimestamp=2026,8,6,16,17,59.706
+
+[IconsMode]
+IconSize=112
+PreviewSize=112
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+IconSize=16
+ToolButtonStyle=IconOnly
+
+[PreviewSettings]
+Plugins=kraorathumbnail,imagethumbnail,cursorthumbnail,windowsexethumbnail,ffmpegthumbs,jpegthumbnail,opendocumentthumbnail,directorythumbnail,windowsimagethumbnail,comicbookthumbnail,appimagethumbnail,audiothumbnail,exrthumbnail,svgthumbnail,djvuthumbnail,ebookthumbnail,glycin-heif,glycin-jxl,glycin-image-rs,glycin-svg
+
+[Search]
+Location=Everywhere
+
+[UiSettings]
+ColorScheme=BreezeDark

@@ -1,0 +1,10 @@
+coolercontrol-bin
+hyde-cli-git
+lmstudio-bin
+miku-cursor-theme
+pamac-aur
+python-pyamdgpuinfo
+smem
+sunshine
+swaylock-effects-git
+yay-debug

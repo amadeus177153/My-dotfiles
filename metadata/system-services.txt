@@ -1,0 +1,16 @@
+bluetooth.service                  enabled disabled
+coolercontrold.service             enabled disabled
+docker.service                     enabled disabled
+getty@.service                     enabled enabled
+httpd.service                      enabled disabled
+mariadb.service                    enabled disabled
+NetworkManager-dispatcher.service  enabled disabled
+NetworkManager-wait-online.service enabled disabled
+NetworkManager.service             enabled disabled
+sddm.service                       enabled disabled
+sshd.service                       enabled disabled
+systemd-timesyncd.service          enabled enabled
+tailscaled.service                 enabled disabled
+systemd-userdbd.socket             enabled enabled
+remote-fs.target                   enabled enabled
+pamac-cleancache.timer             enabled disabled

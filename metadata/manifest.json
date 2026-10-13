@@ -1,0 +1,2932 @@
+{
+  "assets": {
+    "fonts": [
+      {
+        "bytes": 47185920,
+        "file": "fonts.tar.gz.part0000",
+        "sha256": "84a93b593df5aa62b67593025d4b179087f66e49d30b8d983591b1fe405db869"
+      },
+      {
+        "bytes": 47185920,
+        "file": "fonts.tar.gz.part0001",
+        "sha256": "8b7daccecff30c4615bdbfcb6e41451df37781ad52630b9fde758f3c3b560128"
+      },
+      {
+        "bytes": 47185920,
+        "file": "fonts.tar.gz.part0002",
+        "sha256": "7985a712b56886a57dc2d7cca45a3a7d9c1ad80560bf2aaefc7b414072636aba"
+      },
+      {
+        "bytes": 47185920,
+        "file": "fonts.tar.gz.part0003",
+        "sha256": "fdbed69946eed4545c4c4262a0d732a8dd94fe7914278f8d910d1918f376e7c6"
+      },
+      {
+        "bytes": 28735283,
+        "file": "fonts.tar.gz.part0004",
+        "sha256": "3689b19874e01779aa3c05911e283ff25023b2c260d681d2eca690623290fa38"
+      }
+    ],
+    "gtk-themes": [
+      {
+        "bytes": 47185920,
+        "file": "gtk-themes.tar.gz.part0000",
+        "sha256": "a612bdb9271f2865008b4454c71136cba5a10d7261e224f40b9a40910ba76109"
+      },
+      {
+        "bytes": 10456257,
+        "file": "gtk-themes.tar.gz.part0001",
+        "sha256": "e2a6f892e6c0c7b60f2ff5022d6ad8113090bb57c1ed5ee69bb23985a5107a15"
+      }
+    ],
+    "hyde-themes": [
+      {
+        "bytes": 47185920,
+        "file": "hyde-themes.tar.gz.part0000",
+        "sha256": "1df647263a9d04dbb65d8e67e02407d9889df3ecb11888118f53cc025d3467e8"
+      },
+      {
+        "bytes": 20372284,
+        "file": "hyde-themes.tar.gz.part0001",
+        "sha256": "8659c5c447cd6ae1206ecacedd605958b6a18a7e9b34311c9eed8c6379783494"
+      }
+    ],
+    "icons": [
+      {
+        "bytes": 47185920,
+        "file": "icons.tar.gz.part0000",
+        "sha256": "e2eebb3f0c4f5226da82dd9154b0822190ac1d8cb30e405a944e53f0a9adbde4"
+      },
+      {
+        "bytes": 14607592,
+        "file": "icons.tar.gz.part0001",
+        "sha256": "bd95f8d1cdef461de662efabdf7eb2699382849d7786cd586a809d84ec15dfba"
+      }
+    ],
+    "zsh-custom": [
+      {
+        "bytes": 184579,
+        "file": "zsh-custom.tar.gz.part0000",
+        "sha256": "b3deb5fb44305d6fd934f9af84265a2da42871d59f18f5eb4508c7b85297eaec"
+      }
+    ]
+  },
+  "files": {
+    ".Xresources": {
+      "mode": 420,
+      "sha256": "3a0f378500f0ba0ee5617ceb8e37f9e0ae545efcedb3584fc46558a80d556968"
+    },
+    ".bash_logout": {
+      "mode": 420,
+      "sha256": "4330edf340394d0dae50afb04ac2a621f106fe67fb634ec81c4bfb98be2a1eb5"
+    },
+    ".bash_profile": {
+      "mode": 420,
+      "sha256": "b151d6cdbfc9093ef2f9acbe405025039d6400db1e5b3bb2b2a16206b8c42d46"
+    },
+    ".bashrc": {
+      "mode": 420,
+      "sha256": "57dc2d33b67186953530db19ff60acac5dad647107b2065109c42b7d9ffe899c"
+    },
+    ".cache/hyde/landing/profile.png": {
+      "mode": 420,
+      "sha256": "195962744e5e6d7e70b3cdb3cc3971b1ae22d2d9ba17664a8320fbc638db9faa"
+    },
+    ".cache/hyde/wall.set": {
+      "link": "/home/amadeus177153/.config/hyde/themes/Miku Dark Blue/wallpapers/5.jpg"
+    },
+    ".cache/hyde/wall.set.png": {
+      "mode": 420,
+      "sha256": "6783c09137a937489d5f78c18b72133f985ee089f451317ad45d899bc68cece7"
+    },
+    ".config/Kvantum/kvantum.kvconfig": {
+      "mode": 420,
+      "sha256": "cdc1b64f31d94d6bce213bfd91e41170d242e868f70f52d7de4c144c921e19a9"
+    },
+    ".config/Kvantum/wallbash/wallbash.kvconfig": {
+      "mode": 384,
+      "sha256": "7d71e4d60c40e35537065d519e6c181a5031084ae8d5d800383aee24e21ddca1"
+    },
+    ".config/Kvantum/wallbash/wallbash.svg": {
+      "mode": 384,
+      "sha256": "9d529c977b0d9d9272626aaac11c6b8c36d0eb01719d4b0726d9068a24d1c900"
+    },
+    ".config/btop/btop.conf": {
+      "mode": 420,
+      "sha256": "20035af02d1ccbe88286016ab6737adda620166d74ba7f79e27c7104a1c2231d"
+    },
+    ".config/dolphinrc": {
+      "mode": 384,
+      "sha256": "561a908445b702f11608c6a8d2d58fd5217c433daceb56a2757195b61e5311da"
+    },
+    ".config/electron-flags.conf": {
+      "mode": 420,
+      "sha256": "79273360760c4e718d64f112a8eda65dc77f00997d81aa7570da8828cec0ef96"
+    },
+    ".config/fastfetch/config.jsonc": {
+      "mode": 420,
+      "sha256": "fa15108feb1e6c4e4f88a14c4b318a970bd84ae6cd30eb51dbb8be774384d28e"
+    },
+    ".config/fastfetch/pngs/hatsunemiku.png": {
+      "mode": 420,
+      "sha256": "69b40d7c03c48a8bc755e4279505502995126abd6765a22908162b7ef92306e5"
+    },
+    ".config/gtk-3.0/settings.ini": {
+      "mode": 420,
+      "sha256": "dd2f1701135b89bbdfc99348551c62cd0c6a5cf1516e36bb0d7fa4b54cf71675"
+    },
+    ".config/hyde/config.toml": {
+      "mode": 420,
+      "sha256": "869691497419698e6ad5e8b8e02d404ed548b88b3ee86f4d96521de6f637c6fd"
+    },
+    ".config/hyde/wallbash/README.md": {
+      "mode": 420,
+      "sha256": "bbe40bd4c44f3e0ea0049d0e4292f75f19f237ac0c2f32091864e92ab4e8f58b"
+    },
+    ".config/hyde/wallbash/always/cava.dcol": {
+      "mode": 420,
+      "sha256": "e33895969f1703f94f2a41737f6ffa441947840bb62ea4b2e8564ff8b33c907f"
+    },
+    ".config/hyde/wallbash/always/chrome.dcol": {
+      "mode": 420,
+      "sha256": "4a756768bf2af214181e4bbc81dfbbf21e144a57c352d36a42cce84012041596"
+    },
+    ".config/hyde/wallbash/always/discord.dcol": {
+      "mode": 420,
+      "sha256": "39493384483c842b3c05117eadaef21f3e3a29c3adc45efe8a87fbd2ac34f4e5"
+    },
+    ".config/hyde/wallbash/always/spotify.dcol": {
+      "mode": 420,
+      "sha256": "938e7e956cfa6a3d4b4b9960535d50ae8d5bd1e1b15dbd7df63a04dbaf34c0a9"
+    },
+    ".config/hyde/wallbash/always/vim.dcol": {
+      "mode": 420,
+      "sha256": "6322d6477180c64b37c8d4201a566f0425751db301ee0c24edcf958d827b175f"
+    },
+    ".config/hyde/wallbash/always/wayle.dcol": {
+      "mode": 420,
+      "sha256": "1593f57575d5245772c05b4a023075cf5241260fac699a747e16e1888daa3267"
+    },
+    ".config/hyde/wallbash/scripts/cava.sh": {
+      "mode": 493,
+      "sha256": "2f23f08543fb2dbf457a1aa5ac8c72d6c90cb5add85b094ec6a9fe13fdd31a21"
+    },
+    ".config/hyde/wallbash/scripts/chrome.sh": {
+      "mode": 493,
+      "sha256": "027784e5a7892a0793e262c6d245d4663dce96b84e19b5c37585fbd37aa71799"
+    },
+    ".config/hyde/wallbash/scripts/code.sh": {
+      "mode": 493,
+      "sha256": "d53a06b5ba80dc43aaa2ddb2c694fdb99ab9830083914b7f5c5306b95be6f25b"
+    },
+    ".config/hyde/wallbash/scripts/discord.sh": {
+      "mode": 493,
+      "sha256": "0d5e52e8eba92a844b28ecfe6632680925f9bad57ab6867b48f0e0629cfd9457"
+    },
+    ".config/hyde/wallbash/scripts/spotify.sh": {
+      "mode": 493,
+      "sha256": "da01c48826e7bc64bef1c1efc50cac14fac9ca8e36acca8844142cf7d30b2386"
+    },
+    ".config/hyde/wallbash/scripts/swaync.sh": {
+      "mode": 493,
+      "sha256": "b5a82e64824aeb64f17120a236be9c24778cca9d2cdc9ed82b13f5ddcbbc9f8b"
+    },
+    ".config/hyde/wallbash/scripts/wayle-theme.sh": {
+      "mode": 493,
+      "sha256": "16d54b1ac3b7f5e3276b879c002b5643fa7eb1a49012674be693bae4a4f40756"
+    },
+    ".config/hyde/wallbash/theme/code.dcol": {
+      "mode": 420,
+      "sha256": "5872040667c0323dcb2e2e5056d4beae71bf85a05b67c78077c768b221a8fa71"
+    },
+    ".config/hyde/wallbash/theme/swaync.dcol": {
+      "mode": 420,
+      "sha256": "84be7b24b540188787d1dc1ccef5f9a5173d69f60f15ef4f88bbd22320e82ab7"
+    },
+    ".config/hypr/animations.lua": {
+      "mode": 420,
+      "sha256": "d7be79705a869e8445c896b604bd260a7f63922cdbe2142bfc56b8c98ae36622"
+    },
+    ".config/hypr/animations/LimeFrenzy.conf": {
+      "mode": 420,
+      "sha256": "d50759e8adad3ae76e003ac40b69b7bdeaec25d566e9dbb69aa602f1067e8cc9"
+    },
+    ".config/hypr/animations/classic.conf": {
+      "mode": 420,
+      "sha256": "c029f5e3047ab727ec669f24917fcbcabc51706a410f415ccda80b5116f3db81"
+    },
+    ".config/hypr/animations/diablo-1.conf": {
+      "mode": 420,
+      "sha256": "bc9c50bfb0589c8885aa1561c9f89b5839b9df4f523a4759bb9f49f89961fb69"
+    },
+    ".config/hypr/animations/diablo-2.conf": {
+      "mode": 420,
+      "sha256": "7c774c83f5c5a56c6d82c30dcf5fd4e1ec25eed6da5c189dedce5a9975815c16"
+    },
+    ".config/hypr/animations/disable.conf": {
+      "mode": 420,
+      "sha256": "e56e64b3c605aacc9af3dc330a07e56deae79c1b9384a493c7daca81a4eff043"
+    },
+    ".config/hypr/animations/dynamic.conf": {
+      "mode": 420,
+      "sha256": "a617017a0e8665ddbd2c65a18b4b6deacac5f4287de18c85613eb740d66736fc"
+    },
+    ".config/hypr/animations/end4.conf": {
+      "mode": 420,
+      "sha256": "7057704f922affd028dc386789e5cddae9ffc0eae3c657dba3a8e2e67e44be56"
+    },
+    ".config/hypr/animations/fast.conf": {
+      "mode": 420,
+      "sha256": "db44d3eefa8740ca93eb9bbc488e084d81b46c5b17fdd616706bc0cbda0fa2e3"
+    },
+    ".config/hypr/animations/high.conf": {
+      "mode": 420,
+      "sha256": "d1ec59b7d415b28da5da1d4775005f1d7b0b742b22b0cea2d009284184e63cb6"
+    },
+    ".config/hypr/animations/ja.conf": {
+      "mode": 420,
+      "sha256": "1577a12b05d7dfd00c2e8c7d6b2ab024d2a6973536b7aac3d3c1f66c93473743"
+    },
+    ".config/hypr/animations/me-1.conf": {
+      "mode": 420,
+      "sha256": "9656d39ceeef79c4325afc3ddfd3ff228c1246c406f3dd3df7d03e5b360c8588"
+    },
+    ".config/hypr/animations/me-2.conf": {
+      "mode": 420,
+      "sha256": "0631ce443682f81eeb820012453c27bc45b42e728f5fc50b44a7b205178f3e8e"
+    },
+    ".config/hypr/animations/minimal-1.conf": {
+      "mode": 420,
+      "sha256": "a78fab6ffaf3f7d559edfc5672f967bcbc1fb9097746ea186241b2ec018b07c3"
+    },
+    ".config/hypr/animations/minimal-2.conf": {
+      "mode": 420,
+      "sha256": "53475d1e75e981a817eb0489bd9050e0a7cd029bb72cb8935f3f9e3d9fdaa9ca"
+    },
+    ".config/hypr/animations/moving.conf": {
+      "mode": 420,
+      "sha256": "f63ebf61b8f911468c4434b06414a0f6068c674cff18a3da4f173cd10156359a"
+    },
+    ".config/hypr/animations/optimized.conf": {
+      "mode": 420,
+      "sha256": "15857648a82c62cb1da35206e0738a667a417df1efe22d6c314deaec7def7674"
+    },
+    ".config/hypr/animations/standard.conf": {
+      "mode": 420,
+      "sha256": "26b513984c42f831fd84ceb39850b18a60979938dd75af268184fbeaa6ce5bd0"
+    },
+    ".config/hypr/animations/theme.conf": {
+      "mode": 384,
+      "sha256": "b601ab5a65d7f7b985676766bb8565c6377586c88c13b4435017e0c442f66687"
+    },
+    ".config/hypr/animations/vertical.conf": {
+      "mode": 420,
+      "sha256": "e4dd1678ba6fcb7fc7edcabace7c9c49fb672074c5e1515ea84aa93b905cfc92"
+    },
+    ".config/hypr/env.lua": {
+      "mode": 420,
+      "sha256": "79ac5c1df35285b0fc090039c3dd4124df3b8f3bdf071f2d12b87ad66c729c3a"
+    },
+    ".config/hypr/hyprland.conf": {
+      "mode": 420,
+      "sha256": "8a8a2a29ca0c5d3d9031081c6b3b997e80bf2c60776dae9f48787703271daac0"
+    },
+    ".config/hypr/hyprland.lua": {
+      "mode": 420,
+      "sha256": "5327de368549cd2f191e6c78ed7db05e60718cd6ed96c4999718ca1ff0336467"
+    },
+    ".config/hypr/hyprlock.conf": {
+      "mode": 420,
+      "sha256": "88a90fc7dfae792e1f0649b0c93abf6c73eb66a64cb2547e48f97a67c5aea665"
+    },
+    ".config/hypr/hyprlock/Anurati.conf": {
+      "mode": 420,
+      "sha256": "b6f8770c057b6a9e35b082cc151ea6e17237f09838fcf948327838db52186b70"
+    },
+    ".config/hypr/hyprlock/Arfan on Clouds.conf": {
+      "mode": 420,
+      "sha256": "8ccbd4f2c19d132fb99a5cdf696ee2d9b8a291c5523b3821f88041afe8629ccd"
+    },
+    ".config/hypr/hyprlock/HyDE.conf": {
+      "mode": 420,
+      "sha256": "66edd1f98190669c461323726fc1304b7d1d58e5ac198193090d08fe072186ed"
+    },
+    ".config/hypr/hyprlock/IBM Plex.conf": {
+      "mode": 420,
+      "sha256": "bfed03711503a660937f6e6bffeb34856b35bd2fa174b00054cd5bd1cb7d1738"
+    },
+    ".config/hypr/hyprlock/IMB Xtented.conf": {
+      "mode": 420,
+      "sha256": "a238139400ed5db49d2bf3cfb6a9061adc5aa6097046103db59d4302d81ef31e"
+    },
+    ".config/hypr/hyprlock/SF Pro.conf": {
+      "mode": 420,
+      "sha256": "7249e6076c101abac80ce2e147fbb69ecf3739f254142a59f502ce0e9286f96b"
+    },
+    ".config/hypr/hyprlock/greetd-wallbash.conf": {
+      "mode": 420,
+      "sha256": "0eae49a3f6c58c437f23f8a279986d62e192bbb4e5b308eafa31648f7dd188bf"
+    },
+    ".config/hypr/hyprlock/greetd.conf": {
+      "mode": 420,
+      "sha256": "55a6e67e4911aac28fa0f40abf22c768389405e16d3bca6208c82e968562d8f4"
+    },
+    ".config/hypr/hyprlock/theme.conf": {
+      "mode": 384,
+      "sha256": "aaadc7cc9ea712cd25946aec959940d5361f3ab6549b7f62c68eb6735596be24"
+    },
+    ".config/hypr/hyprpaper.conf": {
+      "mode": 420,
+      "sha256": "fbe65331116249f60db4d06303d65733a52e67e78fef2a413d917bab1f5f005f"
+    },
+    ".config/hypr/hyprsunset.conf": {
+      "mode": 420,
+      "sha256": "c08ca73566883a06e85a5a6a99b61f9122e7e96bd4f69d076180b412e5d7ece6"
+    },
+    ".config/hypr/keybindings.lua": {
+      "mode": 420,
+      "sha256": "22c8eb98b214f3c87c2c887753a01834d0eeac1a598b220e9fa9d0e1862c27b1"
+    },
+    ".config/hypr/monitors.conf": {
+      "mode": 420,
+      "sha256": "b1fcbf34af1fabb7e92ab58da5ecffb50a26b3c8fac680f8e6bdfc17e5e3cb95"
+    },
+    ".config/hypr/monitors.lua": {
+      "mode": 420,
+      "sha256": "15a0cfcdb0ace1d1705847119bc53f6897e987d96611f950feefd898acd4d2ca"
+    },
+    ".config/hypr/nvidia.lua": {
+      "mode": 420,
+      "sha256": "762b712297756168f3863e1dc0be3f0c3ed5575f51c54bf7341998f593e804c6"
+    },
+    ".config/hypr/scripts/cambio-cursor.sh": {
+      "mode": 493,
+      "sha256": "cc0fac6aa7001aff005c7720cca6d405b1fb1c34ad55eb06ff92e210401103fc"
+    },
+    ".config/hypr/scripts/captura-sin-cursor.sh": {
+      "mode": 493,
+      "sha256": "df13347ab4922699c8e1a2223f4dd3bf8afcb203f1c89b9435850c5e13e6bb61"
+    },
+    ".config/hypr/scripts/muchica.sh": {
+      "mode": 493,
+      "sha256": "9b8f66fbd6f3c32e0e56943476763ad2fbcfc4b67487313ba5a9f29b349773ad"
+    },
+    ".config/hypr/scripts/sunshine-share-picker": {
+      "mode": 493,
+      "sha256": "f2b0bdea72d69d59dbbe9ad52bf1540f74449b15b50dd9be8ef35289f38a78be"
+    },
+    ".config/hypr/scripts/sunshine_res.sh": {
+      "mode": 493,
+      "sha256": "36999c5762a9ae1d4ae1a88ccc607a97d1092f4425c09b0ba71c692ac8d97eae"
+    },
+    ".config/hypr/scripts/tem.sh": {
+      "mode": 493,
+      "sha256": "aa90847468e360ba2b1f6e3edc94c8580e4214cd8edaf3eb98a90c7443320fd1"
+    },
+    ".config/hypr/scripts/temp.sh": {
+      "mode": 493,
+      "sha256": "bb416fa1ffa93501d293aaa696a26ba554ecd0e06a1d624a1f093c11fbc3eac4"
+    },
+    ".config/hypr/scripts/tmp.sh": {
+      "mode": 493,
+      "sha256": "5f02defaca1b839ee6df2bfd5720fdd1a3782cac37e07c14b7c61555120a047c"
+    },
+    ".config/hypr/shaders.lua": {
+      "mode": 420,
+      "sha256": "8f4a6b5c8e928d3d6c3d829f2f96368c5f1e661284aa308ac8bcdd420acd4c6b"
+    },
+    ".config/hypr/themes/colors.conf": {
+      "mode": 384,
+      "sha256": "8730422444e7f964a4272d406d67c945b05525bb60716ba2a5fc323d61249d30"
+    },
+    ".config/hypr/themes/theme.conf": {
+      "mode": 420,
+      "sha256": "29e94142af1995d5a6eaa2ac39fe4374be7ce7ec780979d9eb78650a2afe15da"
+    },
+    ".config/hypr/themes/wallbash.conf": {
+      "mode": 420,
+      "sha256": "197bb0f45fff54355803d21fcce29ef198d0f9b50d0a53471b6e79d8c611f254"
+    },
+    ".config/hypr/userprefs.lua": {
+      "mode": 420,
+      "sha256": "7e29346dc190993912b854147f30411c9b57a163e1a39d95e5710a809ef219cf"
+    },
+    ".config/hypr/workflows.conf": {
+      "mode": 420,
+      "sha256": "68b96b49f8222d6b2d125a50747607eecc1c927546d30746f861774ab40ebf5c"
+    },
+    ".config/hypr/workflows.lua": {
+      "mode": 420,
+      "sha256": "02205529115739a41ec81c50efff9472a536e66566c222acbb8870313d78c118"
+    },
+    ".config/hypr/workspaces.conf": {
+      "mode": 420,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    ".config/hypr/workspaces.lua": {
+      "mode": 420,
+      "sha256": "215bb5097df8319fa8b376311976e8bf9fd8ec4f85e2816e4d4daf00867023ab"
+    },
+    ".config/hypr/xdph.conf": {
+      "mode": 420,
+      "sha256": "24504bb22abddaba67727c25dea40ff2b1f785f372b33407578d6981ec593b9d"
+    },
+    ".config/kdeglobals": {
+      "mode": 420,
+      "sha256": "74dfb73bf501b060744a9530d438a7e2c0f50b1c2d7225fe9856fa92e30410fe"
+    },
+    ".config/kiorc": {
+      "mode": 384,
+      "sha256": "aa838916df870f2e4899f682f3a6b1cadc31e766369cc46e30205ffafbeafc87"
+    },
+    ".config/kitty/kitty.conf": {
+      "mode": 420,
+      "sha256": "90a23c48adfbaea858dfd321a72a11bb8cdc1d1bae64b5fe555b79a494102475"
+    },
+    ".config/kitty/theme.conf": {
+      "mode": 384,
+      "sha256": "e173e820424329eb2c4d70afd6c355ea56b7db1a700f900fa19b06ff4435e394"
+    },
+    ".config/kitty/userprefs.conf": {
+      "mode": 420,
+      "sha256": "cb078c25efd80e462c017d38f2c4b68e65b8dcda75fce224f65ca78da20a178c"
+    },
+    ".config/kservicemenurc": {
+      "mode": 384,
+      "sha256": "7dc15a2f04fb14627687f4ec14f2a3eeda8e1f8e71a2b026c04332aa1b75fafd"
+    },
+    ".config/mimeapps.list": {
+      "mode": 420,
+      "sha256": "5482f801111544d06ef1287a3e5b35fd9335f35e5071ee7eceab1934c960bfd1"
+    },
+    ".config/nwg-look/config": {
+      "mode": 420,
+      "sha256": "1cd97c9e5f67b4d13d7ff20bc2ccca2a0afd5b2cd90e361a0871db1474f1f01e"
+    },
+    ".config/pavucontrol.ini": {
+      "mode": 420,
+      "sha256": "df7660ea8b7735a05b467402c9bf809cffb77af378d329123424c11d2be85439"
+    },
+    ".config/pypr/config.toml": {
+      "mode": 420,
+      "sha256": "c76a7d6a7fb2ee0b06452ee85f7240275a9e4a9c8c5a04464877615017fe978c"
+    },
+    ".config/qt5ct/colors/wallbash.conf": {
+      "mode": 420,
+      "sha256": "fe6ab021343ba6ecd8565684840abc9b2927169ee2c49df2d155ae28cfdb43bd"
+    },
+    ".config/qt5ct/qt5ct.conf": {
+      "mode": 420,
+      "sha256": "0613e00ff0fa27a9d4bac52b35c2810d5877d196b5773c513c6639e7d0e35eae"
+    },
+    ".config/qt6ct/colors/wallbash.conf": {
+      "mode": 420,
+      "sha256": "fe6ab021343ba6ecd8565684840abc9b2927169ee2c49df2d155ae28cfdb43bd"
+    },
+    ".config/qt6ct/qt6ct.conf": {
+      "mode": 420,
+      "sha256": "d102457368ea7f075c03ff7cef1563b0a045ae9749b1a941ff092183d61ed49f"
+    },
+    ".config/rofi/Adapta-Nokto.rasi": {
+      "mode": 420,
+      "sha256": "e42409ad54e292530de59c15e232bcad09c7098262b69717b1f04bd5dc5476a4"
+    },
+    ".config/rofi/Arc-Dark.rasi": {
+      "mode": 420,
+      "sha256": "3af5f6aabef01cf8a39248dcef0ddc0aad5fa1b3d3a4ee80d38827dc162c1bcf"
+    },
+    ".config/rofi/Arc.rasi": {
+      "mode": 420,
+      "sha256": "a705a2699c6d6b271fa87384e98ebe9f490e9aa5e425b18f06396cc3765a9f7d"
+    },
+    ".config/rofi/DarkBlue.rasi": {
+      "mode": 420,
+      "sha256": "2e3b61f7d76aae5cbc08f454f049670529801132851a8631ccc9cea632f3e007"
+    },
+    ".config/rofi/Indego.rasi": {
+      "mode": 420,
+      "sha256": "46643c941e091bf9872c236fe640e02400af40c71360170801a404b40678aea9"
+    },
+    ".config/rofi/Monokai.rasi": {
+      "mode": 420,
+      "sha256": "f12b680c0ea9820c8d4de3d7af0372a32bc1489fc5e79430a55dcfe379689ac4"
+    },
+    ".config/rofi/Paper.rasi": {
+      "mode": 420,
+      "sha256": "cebdaa1d53217d0ee0fafa92aefec26b5ade1981b420437fded4cd77cb23b873"
+    },
+    ".config/rofi/android_notification.rasi": {
+      "mode": 420,
+      "sha256": "c2faa45a22f9db755ada6000b45e97f2774e782daf7f222c4312011efb17cfbb"
+    },
+    ".config/rofi/arthur.rasi": {
+      "mode": 420,
+      "sha256": "db0951f94511c6693d2af4989bf3e6c0d2833c2fc65741dc4041fbc435b9de4d"
+    },
+    ".config/rofi/blue.rasi": {
+      "mode": 420,
+      "sha256": "a150dc3c24ee7b277c68a9b196649d7a654b745d10a7165d61b15cbcabaf820d"
+    },
+    ".config/rofi/c64.rasi": {
+      "mode": 420,
+      "sha256": "19ce179d73f75e99921435ff3f63bad325b02492931db923b304053e8775044d"
+    },
+    ".config/rofi/dmenu.rasi": {
+      "mode": 420,
+      "sha256": "c3f1f75de1027ea2752bff0c71926b945fb7b13b347842da8ddb8fe2e6d08ab1"
+    },
+    ".config/rofi/docu.rasi": {
+      "mode": 420,
+      "sha256": "93931bfdc286b921b7804b3b499f16d9fbf3dd7fdf0b71f0d1c9f9ccea6090d4"
+    },
+    ".config/rofi/fancy.rasi": {
+      "mode": 420,
+      "sha256": "de2973df4fbc0c12f7e75bec1cb6917350abc05f895d9069e455d0cca2682f5d"
+    },
+    ".config/rofi/fancy2.rasi": {
+      "mode": 420,
+      "sha256": "6dc48478fe90ccab743a32e3653c0990cc52afb422136820f22360ac60d87132"
+    },
+    ".config/rofi/fullscreen-preview.rasi": {
+      "mode": 420,
+      "sha256": "ce691bdc3672313a5c7be7d66830ce9026e45c912c0f12a27b9d19a57f2cd2f5"
+    },
+    ".config/rofi/glue_pro_blue.rasi": {
+      "mode": 420,
+      "sha256": "f7898abce5f11730b1c1c70f69bdd08d2fa6885021735970b2694914edc7c305"
+    },
+    ".config/rofi/gruvbox-common.rasinc": {
+      "mode": 420,
+      "sha256": "52515c4b8fb6f8d81972f7c6e19895f1687e186bfc0c326d50d8fb2984761cea"
+    },
+    ".config/rofi/gruvbox-dark-hard.rasi": {
+      "mode": 420,
+      "sha256": "26e00a3d6636c2377c7d1962c682d074be04b6126c377651bd3118ede02ad615"
+    },
+    ".config/rofi/gruvbox-dark-soft.rasi": {
+      "mode": 420,
+      "sha256": "9d44262f592b291362513bc16677ed54a0f35b3d5cbe81c8ece34e7660a7967b"
+    },
+    ".config/rofi/gruvbox-dark.rasi": {
+      "mode": 420,
+      "sha256": "bfb75da4df9ac6fb20bc1704fd0e42ad016bce05ca54d5a5b638f7a588049ed7"
+    },
+    ".config/rofi/gruvbox-light-hard.rasi": {
+      "mode": 420,
+      "sha256": "bc2c85f922d88a4b4ec85c0cb63192ac622976a9af6423102bba5ec16b126c20"
+    },
+    ".config/rofi/gruvbox-light-soft.rasi": {
+      "mode": 420,
+      "sha256": "31275ed34156cf6d52defd3ad7cfd4d48f557d2422117842dbfb67fda26900a6"
+    },
+    ".config/rofi/gruvbox-light.rasi": {
+      "mode": 420,
+      "sha256": "00f53ff6ed4b62c12f9be89157e6361a9dce2bd09e8e3c6aea173a007926e2dc"
+    },
+    ".config/rofi/iggy.jpg": {
+      "mode": 420,
+      "sha256": "ebec541368dc0b4cbe4647533768e00454cd1b24852c4259134e0c66e7744669"
+    },
+    ".config/rofi/iggy.rasi": {
+      "mode": 420,
+      "sha256": "e9eccba0772aaafa24cd2d383d963e122601b1488b387cd1b4e111fb1fe47d5c"
+    },
+    ".config/rofi/lb.rasi": {
+      "mode": 420,
+      "sha256": "2f026954c02ba33b5d6aec592433b35310f2b3130853258add1e4e7bb7f5a89e"
+    },
+    ".config/rofi/material.rasi": {
+      "mode": 420,
+      "sha256": "7607d23e5c67ebb9c9779446e7a36f1c5c3e97628e7debde02f5515e5dd48fe7"
+    },
+    ".config/rofi/paper-float.rasi": {
+      "mode": 420,
+      "sha256": "1165eebaa8d99a3629ffb8040ff3e6a5cedfd3974b8bcbb7bcf9e0b73df7bb41"
+    },
+    ".config/rofi/purple.rasi": {
+      "mode": 420,
+      "sha256": "cac956aaf273395f6aea94991229c1a50eb3bfeb7425bfca093f4b11e81f364e"
+    },
+    ".config/rofi/sidebar-v2.rasi": {
+      "mode": 420,
+      "sha256": "a826a0417e20bb2a6f14dd9de5374df1cdeb66d09b636350aa5a86d360d8abd3"
+    },
+    ".config/rofi/sidebar.rasi": {
+      "mode": 420,
+      "sha256": "c96528453cb244c62c9442c8514eb792a9a4a65de8352f803e51cc56dbec5c28"
+    },
+    ".config/rofi/solarized.rasi": {
+      "mode": 420,
+      "sha256": "4a2d91cee8d379d822d3d619fe78e70506958efcff63e7c644667cc1af6a4538"
+    },
+    ".config/rofi/solarized_alternate.rasi": {
+      "mode": 420,
+      "sha256": "196e4294ec419eeaaa417fa6df972913a42c1672a7b685b1609ec679b7076505"
+    },
+    ".config/rofi/theme.rasi": {
+      "mode": 384,
+      "sha256": "f2068f69df3aee786800393610ebfe65da4d5dd1b4904bf7cea782722474e60c"
+    },
+    ".config/starship/starship.toml": {
+      "mode": 420,
+      "sha256": "ab15518d38b134cb7e546944a940bcac7c79cd1266058cf20a4a66ba6b6d6a1e"
+    },
+    ".config/sunshine/apps.json": {
+      "mode": 420,
+      "sha256": "e7a0ba34f8835c64dfdf8b5841ba619e546813d737483741e786f04734e38c18"
+    },
+    ".config/sunshine/sunshine.conf": {
+      "mode": 420,
+      "sha256": "006919679092715a848503a1a7176303459e9c6a1aac515a1b1b4d8176e28a12"
+    },
+    ".config/systemd/user/default.target.wants/mpd.service": {
+      "link": "/usr/lib/systemd/user/mpd.service"
+    },
+    ".config/systemd/user/default.target.wants/pipewire-pulse.service": {
+      "link": "/usr/lib/systemd/user/pipewire-pulse.service"
+    },
+    ".config/systemd/user/default.target.wants/pipewire.service": {
+      "link": "/usr/lib/systemd/user/pipewire.service"
+    },
+    ".config/systemd/user/graphical-session.target.wants/app-dev.lizardbyte.app.Sunshine.service": {
+      "link": "/usr/lib/systemd/user/app-dev.lizardbyte.app.Sunshine.service"
+    },
+    ".config/systemd/user/hyde-config.service": {
+      "mode": 420,
+      "sha256": "d0b6359b1a46c6fb6f63f63554d9bf81857dc4b83d44e62cafdafd4a1bc693e9"
+    },
+    ".config/systemd/user/hyde-ipc.service": {
+      "mode": 420,
+      "sha256": "6aa6941f7dd92e42597f93c777e1884af4740be7acef6cd37c468fddff625039"
+    },
+    ".config/systemd/user/pipewire-session-manager.service": {
+      "link": "/usr/lib/systemd/user/wireplumber.service"
+    },
+    ".config/systemd/user/pipewire.service.wants/wireplumber.service": {
+      "link": "/usr/lib/systemd/user/wireplumber.service"
+    },
+    ".config/systemd/user/sockets.target.wants/pipewire-pulse.socket": {
+      "link": "/usr/lib/systemd/user/pipewire-pulse.socket"
+    },
+    ".config/systemd/user/sockets.target.wants/pipewire.socket": {
+      "link": "/usr/lib/systemd/user/pipewire.socket"
+    },
+    ".config/systemd/user/sunshine.service": {
+      "link": "/usr/lib/systemd/user/app-dev.lizardbyte.app.Sunshine.service"
+    },
+    ".config/user-dirs.dirs": {
+      "mode": 384,
+      "sha256": "141997a777f76ec05f02bd57c75da56ddfd8fc31ee5aece04e98aa10c4e0b3d8"
+    },
+    ".config/user-dirs.locale": {
+      "mode": 420,
+      "sha256": "d5be493c4dc35ba18e0592c5b4d64b2312426a2e76c1cf5f8fd2e9230d48acc4"
+    },
+    ".config/uwsm/env": {
+      "mode": 420,
+      "sha256": "b34f912e9941d7c294d215e0d50353bddfccbb1fcd96f947d0718a65acd47b63"
+    },
+    ".config/uwsm/env-hyprland": {
+      "mode": 420,
+      "sha256": "fe22d99250b613825fad5593bf1d347861cfffe60ca95006ddf0c976b80c6256"
+    },
+    ".config/uwsm/env-hyprland.d/00-hyde.sh": {
+      "mode": 420,
+      "sha256": "ef6c595ed04f9ed8888824a21968b16008e9dcd05c65318a68a18af4fbb585c1"
+    },
+    ".config/uwsm/env.d/00-hyde.sh": {
+      "mode": 420,
+      "sha256": "14aedcbb7e054f0ae1027dcf5662a5386437a4cff1b6efabdda7c8f95d2c4dc9"
+    },
+    ".config/uwsm/env.d/01-gpu.sh": {
+      "mode": 420,
+      "sha256": "3ec621b2f8bc57843fbc94211115cd36ecf907831ba59e0a9357453ab87ae656"
+    },
+    ".config/vim/colors/wallbash.vim": {
+      "mode": 384,
+      "sha256": "df24a58921d6223aef778a6a4e25913bd9b5a86dd93d429c03d7c7b5b49b0c6d"
+    },
+    ".config/vim/hyde.vim": {
+      "mode": 420,
+      "sha256": "7fdfa6440c56615c5d400c3d7311d98f7466fa2190cd1ab9ec960a1b027f0d5a"
+    },
+    ".config/vim/vimrc": {
+      "mode": 420,
+      "sha256": "e43386c57015a4d1b2872304428ce654a0c02841d136eefa9bd9a51c6c4048ee"
+    },
+    ".config/waybar/config.jsonc": {
+      "mode": 420,
+      "sha256": "7a48cbe34fe6fedfa4e075dcbbd92280b22d8c61fa363fd5791d809dfd37b129"
+    },
+    ".config/waybar/includes/border-radius.css": {
+      "mode": 420,
+      "sha256": "baf7e80cf6be77bc19f5870a4201544ebac73ca1a84111dc868d9aece2564ea9"
+    },
+    ".config/waybar/includes/global.css": {
+      "mode": 420,
+      "sha256": "e53ab0b6368d23e28d69aaa67b6fd768a722f219e6969ad4ad64f26f2fbeadef"
+    },
+    ".config/waybar/includes/includes.json": {
+      "mode": 420,
+      "sha256": "7cad67bf813339b272057277c316007950de554468e40229d7635a6cbc4899ec"
+    },
+    ".config/waybar/layouts/backup/01_20260806_181634.jsonc": {
+      "mode": 420,
+      "sha256": "c547c367aa9f1f5eba94c9a8b0d6cb9c5013c790ae3b80d298a3106b8cf15c5f"
+    },
+    ".config/waybar/layouts/backup/16_20261005_124751.jsonc": {
+      "mode": 420,
+      "sha256": "c47fa181ca3849e78af797359664e6055db457190cd3cfea7a907441b9c94a5b"
+    },
+    ".config/waybar/layouts/backup/unknown_20260519_162450.jsonc": {
+      "mode": 420,
+      "sha256": "c547c367aa9f1f5eba94c9a8b0d6cb9c5013c790ae3b80d298a3106b8cf15c5f"
+    },
+    ".config/waybar/layouts/backup/unknown_20260519_162450_20260519_201811.jsonc": {
+      "mode": 420,
+      "sha256": "70e3b1c83fe830af273f57e9354d00f4919ffc6cae96c938279c83c3c7b54b23"
+    },
+    ".config/waybar/layouts/backup/unknown_20260519_162450_20260523_220030.jsonc": {
+      "mode": 420,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    ".config/waybar/style.css": {
+      "mode": 420,
+      "sha256": "70054027c65282e00c6bf9d47c14d79d67f0266599aca595ce1b5525ab032944"
+    },
+    ".config/waybar/theme.css": {
+      "mode": 384,
+      "sha256": "d1665abcd44e4b2e9692cdbab4a94eb337848c0092de8a6aca16551856af7ae2"
+    },
+    ".config/waybar/user-style.css": {
+      "mode": 420,
+      "sha256": "96236c68f67a839b182975c43f02b23bebe411abfe42ff774bd64681d7e78329"
+    },
+    ".config/wlogout/icons/hibernate_black.png": {
+      "mode": 420,
+      "sha256": "5476ef364c46dff1b691e9c48f1168899f07798f7949d0689c0fcb53e6bd951a"
+    },
+    ".config/wlogout/icons/hibernate_white.png": {
+      "mode": 420,
+      "sha256": "d279e5ca7010d146f718fbe497197e3ebcdc906cb460c7444463558e9f32982a"
+    },
+    ".config/wlogout/icons/lock_black.png": {
+      "mode": 420,
+      "sha256": "8b79a790579d0001829140b45a7aab65aa3080bee6d6e96e21e19d8c65aa24d3"
+    },
+    ".config/wlogout/icons/lock_white.png": {
+      "mode": 420,
+      "sha256": "f7945a4c681c647da822b4acb21d4e4b1ad8a4bcb134ffa5f8b53c5f2b00dff2"
+    },
+    ".config/wlogout/icons/logout_black.png": {
+      "mode": 420,
+      "sha256": "3fbeb7812eea18537727e1a176ee93e4bd2a39e7c3207435f205e116524bd798"
+    },
+    ".config/wlogout/icons/logout_white.png": {
+      "mode": 420,
+      "sha256": "90056f3fa4c0255bd0aa766644b965cbbd4d44b75efed4833dda3a82dab84169"
+    },
+    ".config/wlogout/icons/reboot_black.png": {
+      "mode": 420,
+      "sha256": "4f9c40bc41be7fe29e39a4a24b170a249bbadaa964f2010329059d75f108c72e"
+    },
+    ".config/wlogout/icons/reboot_white.png": {
+      "mode": 420,
+      "sha256": "fe78f28b7b883f2c381d2a6c179584213950ed2a633c143eb62415d00cf8f208"
+    },
+    ".config/wlogout/icons/shutdown_black.png": {
+      "mode": 420,
+      "sha256": "cb044441be4135cfcf63006258aea8162fd401d288a58ff56a614718f1f8e8ae"
+    },
+    ".config/wlogout/icons/shutdown_white.png": {
+      "mode": 420,
+      "sha256": "d56fc9acc8b7ca8477027714cb505c32b2b0af5a8628e92a7c0bbd6918b15f68"
+    },
+    ".config/wlogout/icons/suspend_black.png": {
+      "mode": 420,
+      "sha256": "fa46d26a75f335a911550d14548fe416bc8a4778f6e2f7ea11342f6b7acace30"
+    },
+    ".config/wlogout/icons/suspend_white.png": {
+      "mode": 420,
+      "sha256": "bb122a99508c0baac611b8883edfae99577075dffbcdba4e3c7a228a18b4fe8e"
+    },
+    ".config/wlogout/layout_1": {
+      "mode": 420,
+      "sha256": "48ba46f801b97783ddd7505a5f6fa4a0b64ccec999bcb9a29959f768caa69962"
+    },
+    ".config/wlogout/layout_2": {
+      "mode": 420,
+      "sha256": "b932de83f1ec2810151238da5c8bcbd28c3b51d0f19b8da2afc06185c303285a"
+    },
+    ".config/wlogout/style_1.css": {
+      "mode": 420,
+      "sha256": "4419ca6ae15e650359323bd056196be2f3cb84ec861132388d1919af6c797a52"
+    },
+    ".config/wlogout/style_2.css": {
+      "mode": 420,
+      "sha256": "ce56d29f6c17c02181b0706c4ede6f266109a4132112a7cec4ce3b76479d3fa4"
+    },
+    ".config/xdg-terminals.list": {
+      "mode": 420,
+      "sha256": "92ae5ec52d2e27b315bc308abfba503cd7b19c4046f49ab3e08c8bfd56980855"
+    },
+    ".config/xsettingsd/xsettingsd.conf": {
+      "mode": 420,
+      "sha256": "7e6eb6821825eca37d7f3a4204d8e1da716f8ba6aaf23a28e2ec4e248024223a"
+    },
+    ".config/zsh/.zshenv": {
+      "mode": 420,
+      "sha256": "ad62a15b93bfab895cde129cd0b084682f3203220d13afe75efdf3474beebbd3"
+    },
+    ".config/zsh/.zshrc": {
+      "mode": 420,
+      "sha256": "2f0ccc29d4deac0c138dd12d630650b38e59fce5e464398a35c3bc94bc1c4518"
+    },
+    ".config/zsh/completions/fzf.zsh": {
+      "mode": 420,
+      "sha256": "c0ae2c110b90f93c6efa60870917023618c04e97c5568e6f31095764d955f941"
+    },
+    ".config/zsh/completions/hydectl.zsh": {
+      "mode": 420,
+      "sha256": "c39fafc29606f4dfa1ae332bf0d6702a260f5d21d9b098275f16cc25b381080e"
+    },
+    ".config/zsh/conf.d/00-hyde.zsh": {
+      "mode": 420,
+      "sha256": "b02ddcae4f8822843bdbd8ad94977fce7f9dae020f8cf4e09a19b7b9e1b78305"
+    },
+    ".config/zsh/conf.d/hyde/env.zsh": {
+      "mode": 420,
+      "sha256": "c269bd28191053c716c1581c5ef44bdccd9f9b7db571289bb38e7ed961faa345"
+    },
+    ".config/zsh/conf.d/hyde/prompt.zsh": {
+      "mode": 420,
+      "sha256": "b9f30cece0e8f1cd893b88c109604344f667a0b4384cf87e4c9d2e3638513df9"
+    },
+    ".config/zsh/conf.d/hyde/terminal.zsh": {
+      "mode": 420,
+      "sha256": "4ec14d52a31c069b18a0d0ad8db0dd185e4b6286db12ce75f771143128c70f49"
+    },
+    ".config/zsh/functions/error-handlers.zsh": {
+      "mode": 420,
+      "sha256": "c9c08e9bf32d2bf8d365a336df9ec2b62a0691cdec55a59750c682504ad15061"
+    },
+    ".config/zsh/functions/fzf.zsh": {
+      "mode": 420,
+      "sha256": "c29a0d5c57d1e40bc039e525a59dd047c5bf9e22803e458ac9fe5e535c28ecfc"
+    },
+    ".config/zsh/plugin.zsh": {
+      "mode": 420,
+      "sha256": "1fffa875aa84a7a59f8db062e7e1c2db6a7f43dfcbccf805b64fb07ea65891b6"
+    },
+    ".config/zsh/prompt.zsh": {
+      "mode": 420,
+      "sha256": "cfa4308bd1c5397b46e0b1e8056370568214f7c2e208fb2a39fdf75147be62b5"
+    },
+    ".config/zsh/user.zsh": {
+      "mode": 420,
+      "sha256": "bc47d97669aaef407fadf6d49a4c518c66dc656a175e1ff8db349c8c202dd674"
+    },
+    ".gtkrc-2.0": {
+      "mode": 420,
+      "sha256": "d4f5702e62a364dc88e757fe4d4880edd3caf3fa7a540b53cdf360777f04dfa1"
+    },
+    ".icons/default/index.theme": {
+      "mode": 384,
+      "sha256": "0c534372a6a2aee396e4afacac1abc9d14a4fd71b4f8dfe59a4c4480a3dc71f2"
+    },
+    ".local/bin/hyde-shell": {
+      "mode": 493,
+      "sha256": "cce57d5edac43345a564496b5d7f7e449bad5e0be04c089b835fae94c24bd679"
+    },
+    ".local/bin/xdg-terminal-exec": {
+      "mode": 493,
+      "sha256": "89f2be9a65deb8df93633a9a09b4953a921c83d591ab987f7569280ecd3127ac"
+    },
+    ".local/lib/hyde/.editorconfig": {
+      "mode": 420,
+      "sha256": "2417d3488ebdf2eb243c48e39303955e8bacb6ee89ac77b64c99276dd56dd883"
+    },
+    ".local/lib/hyde/altab.lua": {
+      "mode": 493,
+      "sha256": "ea6b937013847311d915861694d41a6ddd7369183da1466616c5594e03d7af33"
+    },
+    ".local/lib/hyde/altab/hyprland.lua": {
+      "mode": 420,
+      "sha256": "83c38c8192b327537851d9e5f2f241bf452bfd0c270f6b0b33a7b6a2efeb3441"
+    },
+    ".local/lib/hyde/amdgpu.py": {
+      "mode": 493,
+      "sha256": "982f6ff0cadad43f342f1a4bb9b59a0e06aae405edb2683d0ec20ae249eaaf15"
+    },
+    ".local/lib/hyde/animations.lua": {
+      "mode": 420,
+      "sha256": "9a4b7decfd01e7366280e6aacb0e0c0aef44e74a865150c57ce2564f3de8d5bc"
+    },
+    ".local/lib/hyde/app.sh": {
+      "mode": 493,
+      "sha256": "6e14296f1002ecd86fd4a9054342f09f3e0d4205211aae1eed5c49c091b74035"
+    },
+    ".local/lib/hyde/battery.sh": {
+      "mode": 493,
+      "sha256": "04ff257d181bbdbb9245ea34182fa2f9ef74d3d1d352cd2ad5db89b77c9c4684"
+    },
+    ".local/lib/hyde/batterynotify.lua": {
+      "mode": 493,
+      "sha256": "89bebb861f0ccb1cf28caf8df2c455cb9c4c36efa9f0b4d390734a8b92190e39"
+    },
+    ".local/lib/hyde/bookmarks.py": {
+      "mode": 493,
+      "sha256": "eac534ed8be7fa364ca03e53e9a46d71a3b3393d691d4545cebe5d5cbfe332ed"
+    },
+    ".local/lib/hyde/brightnesscontrol.sh": {
+      "mode": 493,
+      "sha256": "63337096f5614948634c99fb80c718bec55b09c4b5604eb56c12d549d311204b"
+    },
+    ".local/lib/hyde/calculator.sh": {
+      "mode": 493,
+      "sha256": "8902ce3e932b1dcae8a6f0b3f7fcc8b490f9e8f962a44ed53f69f1b43baeac05"
+    },
+    ".local/lib/hyde/cava.py": {
+      "mode": 493,
+      "sha256": "f637d4271d286189f26fbbd11c85763d38296e1f6705ca0d84d8b825cac723ac"
+    },
+    ".local/lib/hyde/cliphist.image.py": {
+      "mode": 493,
+      "sha256": "58d40caeff1d4a389bb0266becc0143d33eda7eb040d5865fe43151dc5ddc541"
+    },
+    ".local/lib/hyde/cliphist.sh": {
+      "mode": 493,
+      "sha256": "a8dded5889dc103b6a27360e6420d225cec1c58659b5b084fff8b8f9120a74ee"
+    },
+    ".local/lib/hyde/color.set.sh": {
+      "mode": 493,
+      "sha256": "01979af1440881b6238160f2acbd3923b565ea263927dc253e1b329a4970e01d"
+    },
+    ".local/lib/hyde/color/dconf.lua": {
+      "mode": 420,
+      "sha256": "365b25b4c0ee707dc39536c8482a39dd0430991b556a9d7b31e08896e59cf02c"
+    },
+    ".local/lib/hyde/color/hypr.sh": {
+      "mode": 493,
+      "sha256": "b5639abb05480a10395469f6e2500dd41f2c1f91e24e622da7a0dffb35b5aac8"
+    },
+    ".local/lib/hyde/completions.py": {
+      "mode": 420,
+      "sha256": "d2c7ce70e79364e985c82e09bd21c1a9d63132ea9c897b63fbf6c37305277b93"
+    },
+    ".local/lib/hyde/completions/hyde-shell.bash": {
+      "mode": 420,
+      "sha256": "ca41d389ef2128d70de3032c327a0655ca1532adfd75e69bc213c1e19cfcfc90"
+    },
+    ".local/lib/hyde/completions/hyde-shell.fish": {
+      "mode": 420,
+      "sha256": "422048c159980ade181a0b6fc6c9a3c715c0b762870c83586f14e79da58a9afd"
+    },
+    ".local/lib/hyde/completions/hyde-shell.zsh": {
+      "mode": 420,
+      "sha256": "0c7c0f61c7ca26213c213210d0235a20c862e04bbcee69cce8dea318c60ff998"
+    },
+    ".local/lib/hyde/config.lua": {
+      "mode": 493,
+      "sha256": "b364781b2531f90addb14d998d57638ae6b7793df68aceb4d3ec2f4152b4d6fb"
+    },
+    ".local/lib/hyde/cpuinfo.sh": {
+      "mode": 493,
+      "sha256": "e3c56fb9f913daeb43fc66aa3fa52869515d7c40808cad15b4f5f4cdcb027976"
+    },
+    ".local/lib/hyde/emoji-picker.sh": {
+      "mode": 493,
+      "sha256": "13acd1aaed831709eafddd41af2275aef24c2e0800b49f96f960367f5e4b5100"
+    },
+    ".local/lib/hyde/fastfetch.sh": {
+      "mode": 493,
+      "sha256": "d19e9119dd1e7db714fc5d4470efcb7bfc99915d812b258af05f4f2cfa72383a"
+    },
+    ".local/lib/hyde/font.sh": {
+      "mode": 493,
+      "sha256": "959e22a7330f23bc089cadc7c463aa5aa6a0fb01c4792efeec7fb6b7ff3a9840"
+    },
+    ".local/lib/hyde/fzf_preview.sh": {
+      "mode": 493,
+      "sha256": "06e1bd54f8db6e523e65861bf65ecd91aecfe41b377c07a34220dc12c0f32bf7"
+    },
+    ".local/lib/hyde/fzf_wrapper.py": {
+      "mode": 493,
+      "sha256": "5df48eb4c5893debc439a11757d34dd8861fab7185dc6fb0012b1ee35a8bdaff"
+    },
+    ".local/lib/hyde/gamelauncher.sh": {
+      "mode": 493,
+      "sha256": "dc649ca8bf82e05352c0b488b4b3ef5c21f198b290f9c16a84b8e65d67dc3507"
+    },
+    ".local/lib/hyde/gamelauncher/catalog.py": {
+      "mode": 420,
+      "sha256": "a1cb4ce7f0ee90066d0ff2f5164a713654381ef34b473ef020a4516063fc5d96"
+    },
+    ".local/lib/hyde/gamelauncher/lutris.py": {
+      "mode": 493,
+      "sha256": "4ed42ff02494b2562160491616ee488be77dca5a3b7cddc80a97cf382fef9c20"
+    },
+    ".local/lib/hyde/gamelauncher/steam.py": {
+      "mode": 493,
+      "sha256": "afa273ab8a7e7c63cddbd3a2b34bf53455db3610414b99389efe17bdda4c505e"
+    },
+    ".local/lib/hyde/gamelauncherBK.sh": {
+      "mode": 493,
+      "sha256": "5c0ea0707aa967e32afb1efb6eafe6722632aebef0c36d034daa90c00c5cc347"
+    },
+    ".local/lib/hyde/gamemode.sh": {
+      "mode": 493,
+      "sha256": "b517f6c57dfd02b8d48de17d2fa944215923164f1fd0ed9929aa0f819fa29556"
+    },
+    ".local/lib/hyde/globalcontrol.sh": {
+      "mode": 493,
+      "sha256": "b75691e9273bc01445656e4b61fff13a0e2e876e6936ff75d932c4b2db086d50"
+    },
+    ".local/lib/hyde/glyph-picker.sh": {
+      "mode": 493,
+      "sha256": "24b868503f144aaf5690b9d2a5d9d25fc197b0fb990ad583cec31d4eab534cb5"
+    },
+    ".local/lib/hyde/gpuinfo.sh": {
+      "mode": 493,
+      "sha256": "3aa7564a8ab29daab9d82ee8260c1d69334cd98659106909fa51e38886b7563b"
+    },
+    ".local/lib/hyde/grimblast": {
+      "mode": 493,
+      "sha256": "38c8e338dbd5bef510348eb6c84cbe7bf680867603930c840414c23882c8edb5"
+    },
+    ".local/lib/hyde/help.py": {
+      "mode": 420,
+      "sha256": "4f3dee3115385c19ac427aef943ed57cfbd25160b61734fe52349d733bca4427"
+    },
+    ".local/lib/hyde/hyde-launch.sh": {
+      "mode": 493,
+      "sha256": "458448cf3058a0d915bbed9cddfc4b5bbfa5bfaa3de34ba17eff20b325e323b4"
+    },
+    ".local/lib/hyde/hyprlock.sh": {
+      "mode": 493,
+      "sha256": "f998488e1c248506dd8ae120fe753ec2e06169d2b4b0580e9df40b35262849bd"
+    },
+    ".local/lib/hyde/hyprsunset.sh": {
+      "mode": 493,
+      "sha256": "3c87808271f43d0f46a92320deffe9ed29205ea286ab6d52a231d4be63786ea3"
+    },
+    ".local/lib/hyde/idle-inhibitor.py": {
+      "mode": 493,
+      "sha256": "f63d71fcbb8203a14daa85e60ea9c5493185b54950919d34742cc5d606574e7c"
+    },
+    ".local/lib/hyde/keybinds/hint-hyprland.py": {
+      "mode": 493,
+      "sha256": "91a2dda2624571ca6a8717f59e09349c5cdbbc7f487a5110694d899804c7f40e"
+    },
+    ".local/lib/hyde/keybinds_hint.sh": {
+      "mode": 493,
+      "sha256": "ee2e8358372aa6bb792bfa91e4bce46b411ff1ccb329b654725908f5b906178f"
+    },
+    ".local/lib/hyde/keyboardswitch.sh": {
+      "mode": 493,
+      "sha256": "704ef13a5988c5c531cac7642d31d50fa4cdfd90fe94e0a426a1846b096ad4ae"
+    },
+    ".local/lib/hyde/layouts.lua": {
+      "mode": 420,
+      "sha256": "2a7bdefd8362817393a07e25160c58b997360f3940b8b7de67c93be008cffd0d"
+    },
+    ".local/lib/hyde/lockscreen.sh": {
+      "mode": 493,
+      "sha256": "f12cb9fa4d9a434af83d89e3f78038dce7fe71c9d9cd9fe75cb4601453fbe01d"
+    },
+    ".local/lib/hyde/logoutlaunch.sh": {
+      "mode": 493,
+      "sha256": "7574a707dee163fe0353772d5a62e6f2123366dafcfe27700c03df15c868fc09"
+    },
+    ".local/lib/hyde/luautils/argparse.lua": {
+      "mode": 420,
+      "sha256": "1d46949c84894d5166f307db22ee8a60333e7d58e7d49a776676eb7eb82a90fe"
+    },
+    ".local/lib/hyde/luautils/global/log.lua": {
+      "mode": 420,
+      "sha256": "d681bc0b64c27a520b1defe0115c62f191d8412a5f12df104636c5cea2900886"
+    },
+    ".local/lib/hyde/luautils/global/notify.lua": {
+      "mode": 420,
+      "sha256": "30dcb9e30f7ddcabe8c9fdcea8d08097e52b6665e4eeaa7333998ed4644651aa"
+    },
+    ".local/lib/hyde/luautils/global/state.lua": {
+      "mode": 420,
+      "sha256": "4d535c8ad31f707a7b53d03a688187a18a14cc7b9e7b8cd3cdb0fba64a2a2287"
+    },
+    ".local/lib/hyde/luautils/hypr-toml.lua": {
+      "mode": 493,
+      "sha256": "ab120db9d0774a0a1304d029359a2b48f2af284c654b87cb4c7da5e5f5bad0c1"
+    },
+    ".local/lib/hyde/luautils/hypr/hyprctl.lua": {
+      "mode": 420,
+      "sha256": "c962cdb6c8d99c054300e9877c02f045213c108ce62184aa375adcef029111cb"
+    },
+    ".local/lib/hyde/luautils/init.lua": {
+      "mode": 420,
+      "sha256": "3bc99ba21235d65d21a85924cf5ea376f3a391be3a048a137e184f4002ea6b48"
+    },
+    ".local/lib/hyde/luautils/json.lua": {
+      "mode": 420,
+      "sha256": "e652aa90217386d6d06126369bc01bbf5ace3e61d79ab6936943940c9377040c"
+    },
+    ".local/lib/hyde/luautils/require.lua": {
+      "mode": 420,
+      "sha256": "b73081c50d347d6ad8547e8e4df02deaa3f139e77b3560e752ea92f63afcb1a5"
+    },
+    ".local/lib/hyde/luautils/rofi/pos.lua": {
+      "mode": 420,
+      "sha256": "66ebb68ec478e698f9d51d7a5acea5a236965b2ef03fd41c24c2b2c57302cd5b"
+    },
+    ".local/lib/hyde/luautils/selector/common.lua": {
+      "mode": 420,
+      "sha256": "ab9ea8709ad776cbabd4a11723d4aa9e78918980ce519b25453c90807ea98a8f"
+    },
+    ".local/lib/hyde/luautils/selector/rofi.lua": {
+      "mode": 420,
+      "sha256": "61b39e872b1552415c618cbbe7460baab59b17cfc7876e03a7d752bd38672935"
+    },
+    ".local/lib/hyde/luautils/theme/parser.lua": {
+      "mode": 420,
+      "sha256": "991d48c0b61af1487674034c41b8924a22883f16961787252b4ad4752ca7f5aa"
+    },
+    ".local/lib/hyde/luautils/toml.lua": {
+      "mode": 420,
+      "sha256": "0a0ad7edaac6b95f4da4c3312a24465390367dfeb68c57776fd70334b0f97858"
+    },
+    ".local/lib/hyde/luautils/xdg.lua": {
+      "mode": 420,
+      "sha256": "159931c789acdce211f2c175cad12a9488c1d4aef43f043052aaafd1970ce3fa"
+    },
+    ".local/lib/hyde/mediaplayer.py": {
+      "mode": 493,
+      "sha256": "5bd3c1c946e3abee7f337a0b66cc5b72faf7bc20cf702558f2c91b8831c2e0f1"
+    },
+    ".local/lib/hyde/notifications.py": {
+      "mode": 493,
+      "sha256": "ce951ceb7d3c7dfc8789bfced690773868e8cf5cb42e2d762b132ad3fe00947d"
+    },
+    ".local/lib/hyde/open.lua": {
+      "mode": 493,
+      "sha256": "925611754d7d6d31db02d66d8729d71569953f1e2a1cbee62f2b9ae13a69901e"
+    },
+    ".local/lib/hyde/package_managers/apt.py": {
+      "mode": 420,
+      "sha256": "8346d3bc948ba71a2befb817522b9da86dc220c4141dccb5b8ee41f1bb86042f"
+    },
+    ".local/lib/hyde/package_managers/dnf.py": {
+      "mode": 420,
+      "sha256": "0786d25b7b2bf6da8983eaa746b487585ae9a9b831d68bacbd0ff9825aa2f87c"
+    },
+    ".local/lib/hyde/package_managers/flatpak.py": {
+      "mode": 420,
+      "sha256": "f74adc22fd729c9ec4cf03b0850dff49dd879dd3a396edab6abdcc46d6c3bd92"
+    },
+    ".local/lib/hyde/package_managers/meta.py": {
+      "mode": 420,
+      "sha256": "257d3a9a2fab81a35dd40907167b152ca2287701163c14d22b53265a3238290a"
+    },
+    ".local/lib/hyde/package_managers/pacman.py": {
+      "mode": 420,
+      "sha256": "0bdc1ea1b5bbb12d7abc91f83f523be98f183627a89c58ac344d73a215be8d69"
+    },
+    ".local/lib/hyde/package_managers/paru.py": {
+      "mode": 420,
+      "sha256": "1e316a8cd4e00df75970946bce054b1f2e51fe998c7765706cd059654c140d30"
+    },
+    ".local/lib/hyde/package_managers/yay.py": {
+      "mode": 420,
+      "sha256": "5cb0a44c88ac9bd653aeb956c9f6c7cd24a7bc4199f5f3d568833fbd82abf9fa"
+    },
+    ".local/lib/hyde/package_managers/zypper.py": {
+      "mode": 420,
+      "sha256": "49398521af38339f54863ff848f89366435d072edb34c4627e2b3728883fb199"
+    },
+    ".local/lib/hyde/pm.py": {
+      "mode": 493,
+      "sha256": "32420b6a17c4470b8ccb858b5cf690aa673627c4dab94e81cd7df43d84d895e1"
+    },
+    ".local/lib/hyde/pm.sh": {
+      "mode": 493,
+      "sha256": "7bfbcf95098b54181f4358293b49e58fd5426bbf6b81311b82163f352c702369"
+    },
+    ".local/lib/hyde/polkitkdeauth.sh": {
+      "mode": 493,
+      "sha256": "975ab4f3a622165fc77ec65bd829a60fdbe82c1afedaa35db8e5c0b16fc04833"
+    },
+    ".local/lib/hyde/pygui/color.shuffle.py": {
+      "mode": 493,
+      "sha256": "e2213148e67fb52cb7700de92c0b55e349be273ab23246dee41fbb385b351cd5"
+    },
+    ".local/lib/hyde/pyproject.toml": {
+      "mode": 420,
+      "sha256": "054ffdc3e2a13ef1f1c297650d7657f0817c1f6bddb9cf5599d710920798c6de"
+    },
+    ".local/lib/hyde/pyutils/compositor.py": {
+      "mode": 420,
+      "sha256": "e4810f44451e1beb2a0cc252782a26e3a77bb204c333e94f12ed35e0aebfcb8c"
+    },
+    ".local/lib/hyde/pyutils/logger.py": {
+      "mode": 420,
+      "sha256": "ad79a2129d257ae7406ccdc1e2c49d92b3dbb16cb7c5521fd3352785304d70df"
+    },
+    ".local/lib/hyde/pyutils/lua_env.json": {
+      "mode": 420,
+      "sha256": "35f85743e4d5d4e938cf7cb71bee28b856975f45028c47c84df763be4e1543d5"
+    },
+    ".local/lib/hyde/pyutils/lua_env.py": {
+      "mode": 420,
+      "sha256": "d7c6718cc47aac8d8e3a9cd7c6311c40dbf59c02ccf7063e4187945e6e4e6098"
+    },
+    ".local/lib/hyde/pyutils/python_env.py": {
+      "mode": 420,
+      "sha256": "3ec92567f071fe1ae6ea90cc5f1923450ddc91c2cc7cddf03b80901854f59ff9"
+    },
+    ".local/lib/hyde/pyutils/wrapper/fzf.py": {
+      "mode": 493,
+      "sha256": "5df48eb4c5893debc439a11757d34dd8861fab7185dc6fb0012b1ee35a8bdaff"
+    },
+    ".local/lib/hyde/pyutils/wrapper/libnotify.py": {
+      "mode": 420,
+      "sha256": "b544f414cf1add968f25ccb19493516ae9c106c57a96584d498a0454b87947a7"
+    },
+    ".local/lib/hyde/pyutils/wrapper/rofi.py": {
+      "mode": 420,
+      "sha256": "fa75a40bbd9be36f2a3cd90ea57a65f8539c001137043601e19df1c377f5c7f7"
+    },
+    ".local/lib/hyde/pyutils/xdg_base_dirs.py": {
+      "mode": 420,
+      "sha256": "ac0457a925e0ecd07539acd710a7b58259c7aaedb1d628088b92f208b95a2d1a"
+    },
+    ".local/lib/hyde/quickapps.sh": {
+      "mode": 493,
+      "sha256": "e8ff81f72e032b2d851c02af0d5b6b5ee81d87905f5100ce0d07f0d3f22ecaab"
+    },
+    ".local/lib/hyde/reload.py": {
+      "mode": 493,
+      "sha256": "bb39c5651fcd71a1a643c13653fb9c00b2eabae5aa5f937ebadd007690ec9dce"
+    },
+    ".local/lib/hyde/resetxdgportal.sh": {
+      "mode": 493,
+      "sha256": "578d627550b642545ccdc3db46108c37e5e35d2ab956e86a0d17525f9d30ae0e"
+    },
+    ".local/lib/hyde/restore.config.sh": {
+      "mode": 493,
+      "sha256": "75a21414427f9108855887a10ee16489e42286fbe807377b767b2aeaab2ab163"
+    },
+    ".local/lib/hyde/rofi.animations.lua": {
+      "mode": 420,
+      "sha256": "de9f8a056c0847b2529f5bb09fd1471fd57dc6be652b63111dbbd7ce51f3f4af"
+    },
+    ".local/lib/hyde/rofi.bookmarks.sh": {
+      "mode": 493,
+      "sha256": "3db38fb308c1185b39f201d59bfefe588b2a7d4115a72f56d88ece956de3c301"
+    },
+    ".local/lib/hyde/rofi.layouts.lua": {
+      "mode": 420,
+      "sha256": "6d8d410ea3a5b3abb1a7aa2545c52f3aabfd2f21571c807b9b2a4c003b46c986"
+    },
+    ".local/lib/hyde/rofi.shaders.lua": {
+      "mode": 493,
+      "sha256": "d888033815f1a55619ca043ac388877776592eafe48f90a1ec760c2bd9b50f5c"
+    },
+    ".local/lib/hyde/rofi.websearch.sh": {
+      "mode": 493,
+      "sha256": "964286fa65568ec2762600990fd40459b0559ba8aae2367a5a8cc51642f39f24"
+    },
+    ".local/lib/hyde/rofi.workflows.lua": {
+      "mode": 420,
+      "sha256": "7c7c9a3d45d78358da2e8bd94199dc5b66cb69ecc905070aec0d42fb6231b464"
+    },
+    ".local/lib/hyde/rofilaunch.sh": {
+      "mode": 493,
+      "sha256": "0c8cbd619d357aadbdf56b03cfa251e74402ac01f639a2809c06625107aba550"
+    },
+    ".local/lib/hyde/rofiselect.sh": {
+      "mode": 493,
+      "sha256": "d7ebc83fda18eeeb8c9ccb15d3af14eea7f253a413c655403ec1c88dbc372ae3"
+    },
+    ".local/lib/hyde/screenrecord.sh": {
+      "mode": 493,
+      "sha256": "0a0beb8fa39a7d1f6cc2345c3a6486daa539da86163e4e398c501e92c686575b"
+    },
+    ".local/lib/hyde/screenshot.sh": {
+      "mode": 493,
+      "sha256": "7b3b6495a44394cb13e83b3442e2747992c0919e2dfdc472983de23112e58df7"
+    },
+    ".local/lib/hyde/sensorsinfo.py": {
+      "mode": 493,
+      "sha256": "b2ba85b3092ebbe956964a70b598aa12a7af38957ebb3c270b0ea5dd0b4e9888"
+    },
+    ".local/lib/hyde/session.py": {
+      "mode": 493,
+      "sha256": "ebf0d934264344d2ec6fcbdd413bd96f0625cac8460ee1720b7b6c1a621719d2"
+    },
+    ".local/lib/hyde/session/__init__.py": {
+      "mode": 420,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    ".local/lib/hyde/session/compositor/__init__.py": {
+      "mode": 420,
+      "sha256": "9ce2cdd6f01d544d54ba741cb67e811fa3b52f0247ba4d115543ab0529178dfc"
+    },
+    ".local/lib/hyde/session/compositor/hyprland.py": {
+      "mode": 420,
+      "sha256": "53a1d41b2cdc38477542728557401abfce6be1c23d8a47de4754845226db3bd2"
+    },
+    ".local/lib/hyde/session/compositor/niri.py": {
+      "mode": 420,
+      "sha256": "75c25fe2b530bdd80ee37357a69c9b7227d0d95951815ab64bef61ca793ad2f5"
+    },
+    ".local/lib/hyde/session/manager.py": {
+      "mode": 420,
+      "sha256": "c2f0ac4acac63a27a4695e3f989bfd648b2e748d49fdcb774dd31a1deaed2d13"
+    },
+    ".local/lib/hyde/session/pluginloader.py": {
+      "mode": 420,
+      "sha256": "ad7d499871bb00a9f00c47e0fbee2bd988f178281ae0c84da6b637a7564484c0"
+    },
+    ".local/lib/hyde/session/plugins/brave.py": {
+      "mode": 420,
+      "sha256": "c0525b011fc29300ca81f33114ff16e6af599ac9ed2020f99cca186a5c46dc3e"
+    },
+    ".local/lib/hyde/session/plugins/code.py": {
+      "mode": 420,
+      "sha256": "2f592b5fa415c23b475d0251118509ab9ad90545be8b3dc208384e24fae4d048"
+    },
+    ".local/lib/hyde/session/plugins/kitty.py": {
+      "mode": 420,
+      "sha256": "3923cf68da1f91be7147a7b8adaeba89a084fe8135563133abb322cef0faa597"
+    },
+    ".local/lib/hyde/shaders.lua": {
+      "mode": 420,
+      "sha256": "3a9c1691f0a38c07d077e435795dc59dc2cd377e72b309e19218219ac15e6a6b"
+    },
+    ".local/lib/hyde/shell/activate": {
+      "mode": 420,
+      "sha256": "038fe73fda3b68f5dfaff9ba8ebba88270619f6c2bf23ff6f741a34ff9bf7000"
+    },
+    ".local/lib/hyde/shell/activate.fish": {
+      "mode": 420,
+      "sha256": "7b8ae5768e2f293b64b0e0620579d860e0e78cac8a1b5cae7f99ca6871b34434"
+    },
+    ".local/lib/hyde/shutils/argparse.sh": {
+      "mode": 420,
+      "sha256": "488f608b3255d54256137d6aee191bebe8f8b6157e23aace07b7294d9d8dca9b"
+    },
+    ".local/lib/hyde/shutils/l10n.sh": {
+      "mode": 420,
+      "sha256": "a18a7caef4eb7e084b204dc4a3edf526f699d7d955a60e78f7047cb10159660a"
+    },
+    ".local/lib/hyde/shutils/ocr.sh": {
+      "mode": 420,
+      "sha256": "f06d9e9c4c9b4beb207558c03800ec31b5409cf546616090adaa5dce1253f870"
+    },
+    ".local/lib/hyde/shutils/qr.sh": {
+      "mode": 420,
+      "sha256": "e5fa6a274bdad04c13942206696e23f59b119f970f056428e401834bf9423b0f"
+    },
+    ".local/lib/hyde/system.monitor.sh": {
+      "mode": 493,
+      "sha256": "3a5bd09516a0512f1398dc7cdac7408097df852006e0d0d7d4c75a8dea06e23a"
+    },
+    ".local/lib/hyde/system.update.py": {
+      "mode": 420,
+      "sha256": "f5ee1a8d8ff2779594cd2bf53114a86163e9b5dc7f1b298ab5a0c0a789d5344e"
+    },
+    ".local/lib/hyde/theme.import.py": {
+      "mode": 493,
+      "sha256": "beb9c3fe888357bc41fdc36ba32bf1c3d2bdbb296e8ba92efd22559ef16887b4"
+    },
+    ".local/lib/hyde/theme.patch.sh": {
+      "mode": 493,
+      "sha256": "eeea7c9b47ede52bcfc565f70a5d031d10433a7617ff2044a943390c7fa9c15b"
+    },
+    ".local/lib/hyde/theme.select.sh": {
+      "mode": 493,
+      "sha256": "670149e5c88e63a3fa10d5fb5673ee3c70d9b66d0ad0e47e181d717d7f165b4a"
+    },
+    ".local/lib/hyde/theme.switch.sh": {
+      "mode": 493,
+      "sha256": "0353f8b3ef8001e50892498d99a59f89e03616aa86e8c29a8f2d63cba3c6313c"
+    },
+    ".local/lib/hyde/uv.lock": {
+      "mode": 420,
+      "sha256": "938e1fa5347cda2f98101d77f8f69411a99b8fe02dbe803e6a840a07d4aa4504"
+    },
+    ".local/lib/hyde/volumecontrol.sh": {
+      "mode": 493,
+      "sha256": "160f5ef5516302a3512224747299a5baab35ee56ef49c745cbba86a0f612c907"
+    },
+    ".local/lib/hyde/wallbash.print.colors.sh": {
+      "mode": 493,
+      "sha256": "eeea39efa7bffd855e483f28cb2ccf5632c39cf2795205a1439e7aa37c3538e0"
+    },
+    ".local/lib/hyde/wallbash.sh": {
+      "mode": 493,
+      "sha256": "1acbfcb0952ab686d81337b5c6b22b6d57e65fd4ed43c97ba6fd91b31e9feace"
+    },
+    ".local/lib/hyde/wallbashtoggle.sh": {
+      "mode": 493,
+      "sha256": "22cb938ac09cb67a960ca725871f6b8aa73ea13a7bc5c807c672eac779d1ed56"
+    },
+    ".local/lib/hyde/wallpaper.awww.sh": {
+      "mode": 493,
+      "sha256": "a62841561f69a63f289d771f11bf3145a4917ac49aad8171d97f08272b023b76"
+    },
+    ".local/lib/hyde/wallpaper.hyprpaper.sh": {
+      "mode": 493,
+      "sha256": "52b128a5157b21399a53f499f4ffc7c6600f4dd3edbf7e1495252928b770e5ee"
+    },
+    ".local/lib/hyde/wallpaper.kon.sh": {
+      "mode": 493,
+      "sha256": "6829d77e6b8fb3d9ed2563f8526bf052e8cf55aca91b1659f9e8d38ed3ad6c54"
+    },
+    ".local/lib/hyde/wallpaper.mpvpaper.sh": {
+      "mode": 493,
+      "sha256": "d8b009d3ed3344dcda6bdc2e3b15bb097ff7f802410b5103f6a0a49db0bc317c"
+    },
+    ".local/lib/hyde/wallpaper.sh": {
+      "mode": 493,
+      "sha256": "ac561479a400efaebe5a14636d7ba6e2f06c8e648b5385945ae5e4793c9421ba"
+    },
+    ".local/lib/hyde/wallpaper.swww.sh": {
+      "mode": 493,
+      "sha256": "c190d1a2076265ca36e1cf7e78d4aa1f571404551e6681658b0e9eb7ff025c1b"
+    },
+    ".local/lib/hyde/wallpaper.waydeeper.sh": {
+      "mode": 493,
+      "sha256": "c044c07d3326825864b5e4cb959e2a834d46b2b4555017c98426dd187f3adb1c"
+    },
+    ".local/lib/hyde/wallpaper/cache.sh": {
+      "mode": 493,
+      "sha256": "91f406be9c841155d47196f59fbfa6e620ae444ccde26a34496a7ae74e116b96"
+    },
+    ".local/lib/hyde/wallpaper/core.sh": {
+      "mode": 420,
+      "sha256": "fd05adfd93f7daa8399bcd163a637df2d8d3469a174e4c26debcd89e345c17fb"
+    },
+    ".local/lib/hyde/wallpaper/help.sh": {
+      "mode": 420,
+      "sha256": "32439112d31ad55f042062fa87a99cce63e3e955bbcb18036728072af7c9caf3"
+    },
+    ".local/lib/hyde/wallpaper/select.sh": {
+      "mode": 420,
+      "sha256": "3a426291028c1ad156514c657d15adc50939681b8c68f9fc3d30697610562675"
+    },
+    ".local/lib/hyde/waybar.py": {
+      "mode": 493,
+      "sha256": "bc220628c875eb11e0117a3347469341b77ed481dedf7121d866fb5d9bc0c2d3"
+    },
+    ".local/lib/hyde/weather.py": {
+      "mode": 493,
+      "sha256": "e6c4c60da024a47c33276c47ffc5ebb9394f52bf5fd18eed1a90b60b3d4e66bd"
+    },
+    ".local/lib/hyde/window.mute.py": {
+      "mode": 493,
+      "sha256": "adf821ca03de287af9b79478910b3c2d6a12eedece5273156dd2fb153e6252c5"
+    },
+    ".local/lib/hyde/window.pin.lua": {
+      "mode": 493,
+      "sha256": "2e1c856dc67451d9436fb67960c3f178694e1a62f1fc4b070bb53186d72d3cc2"
+    },
+    ".local/lib/hyde/workflows.lua": {
+      "mode": 493,
+      "sha256": "9086ef132f5a52648d43ee7794dc8d8af974defb0a6bbb934b0b6ace688ba70d"
+    },
+    ".local/lib/hyde/xdg-terminal-exec": {
+      "mode": 493,
+      "sha256": "4ed762d350db01ba63951ddc646bb795c8008828177602cd2c5f4e58b35f616b"
+    },
+    ".local/share/applications/Left 4 Dead 2.desktop": {
+      "mode": 493,
+      "sha256": "35162bbc89e421397f0df5ef907087638fbce6c5306f42b3f23f3717ecc4eba6"
+    },
+    ".local/share/applications/MITHOS Game Master's TTRPG Toolkit.desktop": {
+      "mode": 493,
+      "sha256": "98a331d88ee1015eeb40005e929ffca66cb7a49589e2563daf9a4f4aee4df1dd"
+    },
+    ".local/share/applications/Overwatch.desktop": {
+      "mode": 493,
+      "sha256": "71ca580a2de0ef2cc0d40e7a0406533b05aa3ec35a412c5f6df7361f9637874c"
+    },
+    ".local/share/applications/Project Zomboid.desktop": {
+      "mode": 493,
+      "sha256": "549a30a6c398b15d2faf449ab3a84cd1102855c225d3b7d6137d3226af94ef9f"
+    },
+    ".local/share/applications/code-2.desktop": {
+      "mode": 384,
+      "sha256": "ee1c680e2b5549d8a827da0a1575b21434abdc88cd3c243be60a289e1f7ff993"
+    },
+    ".local/share/applications/code-3.desktop": {
+      "mode": 384,
+      "sha256": "4c4f9876df68b52d33364c49f751d431fc9bde6c1c254bf4b7eabe88fa8ca34b"
+    },
+    ".local/share/applications/code-4.desktop": {
+      "mode": 384,
+      "sha256": "4c4f9876df68b52d33364c49f751d431fc9bde6c1c254bf4b7eabe88fa8ca34b"
+    },
+    ".local/share/applications/code-5.desktop": {
+      "mode": 384,
+      "sha256": "4c4f9876df68b52d33364c49f751d431fc9bde6c1c254bf4b7eabe88fa8ca34b"
+    },
+    ".local/share/applications/code-6.desktop": {
+      "mode": 384,
+      "sha256": "4c4f9876df68b52d33364c49f751d431fc9bde6c1c254bf4b7eabe88fa8ca34b"
+    },
+    ".local/share/applications/code-7.desktop": {
+      "mode": 384,
+      "sha256": "e665a9be13f51bd69e4f8a056fc128be8bc79f0ce7262bc0a538efb75ee265d6"
+    },
+    ".local/share/applications/code.desktop": {
+      "mode": 384,
+      "sha256": "4c4f9876df68b52d33364c49f751d431fc9bde6c1c254bf4b7eabe88fa8ca34b"
+    },
+    ".local/share/applications/dev.pepotech.PepoMote.desktop": {
+      "mode": 420,
+      "sha256": "60bd747eba305be0da19fc8dc0ba2876de00cc5750c0f89b5040c44ea3084c92"
+    },
+    ".local/share/applications/feh-2.desktop": {
+      "mode": 384,
+      "sha256": "b6ffda63c3df2f8108bda548d17204c4f95d43d2f7231334619526f7d26b1096"
+    },
+    ".local/share/applications/feh-3.desktop": {
+      "mode": 384,
+      "sha256": "b6ffda63c3df2f8108bda548d17204c4f95d43d2f7231334619526f7d26b1096"
+    },
+    ".local/share/applications/mpv-2.desktop": {
+      "mode": 384,
+      "sha256": "feb153ccb671b8f8e20c5a5fab09ffd47d29de4205a9ff2bf43aa8d68bff4325"
+    },
+    ".local/share/applications/mpv-3.desktop": {
+      "mode": 384,
+      "sha256": "feb153ccb671b8f8e20c5a5fab09ffd47d29de4205a9ff2bf43aa8d68bff4325"
+    },
+    ".local/share/applications/waydroid.com.android.calculator2.desktop": {
+      "mode": 420,
+      "sha256": "745e5adf2cfedb92e33315ac7348dfc617dacfaa1d86d7c9654842af4d222029"
+    },
+    ".local/share/applications/waydroid.com.android.contacts.desktop": {
+      "mode": 420,
+      "sha256": "3d9e121ef21aa1b1160d574024fca6e9b583242abcdff217d99d701b625eefd3"
+    },
+    ".local/share/applications/waydroid.com.android.deskclock.desktop": {
+      "mode": 420,
+      "sha256": "8a2a5726bf4fac15d212cf2035a47b99b676c77e7a406271707e7239440bda9b"
+    },
+    ".local/share/applications/waydroid.com.android.documentsui.desktop": {
+      "mode": 420,
+      "sha256": "5807e65765683d8c5aef848acc8154ab0f3bf267e90306b68790a9458710aee1"
+    },
+    ".local/share/applications/waydroid.com.android.gallery3d.desktop": {
+      "mode": 420,
+      "sha256": "e563b29e773db460cda33d34f0b9335ad65669735a064c82877a6bd80f98be2e"
+    },
+    ".local/share/applications/waydroid.com.android.settings.desktop": {
+      "mode": 420,
+      "sha256": "d496f89d9b117eb4ebecece33ca1c584334359007c18b393e4238a03eb3f4275"
+    },
+    ".local/share/applications/waydroid.com.android.vending.desktop": {
+      "mode": 420,
+      "sha256": "f093db198c959299d66a82743ca4737988456600c49ac35332a982480d32a1ed"
+    },
+    ".local/share/applications/waydroid.com.nianticlabs.pokemongo.desktop": {
+      "mode": 420,
+      "sha256": "f833adf0da8567a9d4144df41a46f9b63cad7e73d888dbd0378bed47f32a3665"
+    },
+    ".local/share/applications/waydroid.org.lineageos.aperture.desktop": {
+      "mode": 420,
+      "sha256": "46e6159d1dc5029366b71cef73e119158f6e077ba815bd33147c6f1159682c8c"
+    },
+    ".local/share/applications/waydroid.org.lineageos.eleven.desktop": {
+      "mode": 420,
+      "sha256": "e2385fb8f5a85677a09551b0c2b6a5acc2bb560a339b45075d66a1d91dc819d0"
+    },
+    ".local/share/applications/waydroid.org.lineageos.etar.desktop": {
+      "mode": 420,
+      "sha256": "baaf0073921bfe9164979e5b173af73971a9fc5ce0faeac1cfba5ffa284e04d1"
+    },
+    ".local/share/applications/waydroid.org.lineageos.jelly.desktop": {
+      "mode": 420,
+      "sha256": "8ef4b7abbc3c22b8de1f6cef6bb5f0c69402570cdfd7b5335bcce671f8e41c1d"
+    },
+    ".local/share/applications/waydroid.org.lineageos.recorder.desktop": {
+      "mode": 420,
+      "sha256": "70a12c807083e85f3429a9c043ad5294a1443c378b1e80961135d26a9bfa115b"
+    },
+    ".local/share/fastfetch/presets/hyde/config.jsonc": {
+      "mode": 420,
+      "sha256": "63189893d61cd049e91093f460cd82b11282d464ca6bdd77ec1e0500b8e36e46"
+    },
+    ".local/share/fastfetch/presets/hyde/lierb.jsonc": {
+      "mode": 420,
+      "sha256": "63d1ef2bf796b75a844ddf10d61bfc2fef8ef49024c9a860357bcb1b574f2b98"
+    },
+    ".local/share/fastfetch/presets/hyde/xero.jsonc": {
+      "mode": 420,
+      "sha256": "22be332da812c2002e28d07da7e2e13443d7de99dc140237d8649cd76ba1c4da"
+    },
+    ".local/share/hyde/config-registry.toml": {
+      "mode": 420,
+      "sha256": "deb8d4f41a1cd09041bddfdd2dd644a20618657013e1fb6fbfa844770e6f9d39"
+    },
+    ".local/share/hyde/dunst.conf": {
+      "mode": 420,
+      "sha256": "ddfd648e746557a448c505c45b8badf1d17b3679e5f83a41f62bdbecc725fb20"
+    },
+    ".local/share/hyde/emoji.db": {
+      "mode": 420,
+      "sha256": "97ec9b3a9d3812d80a89ad5246d2d3ca6b2ea2f795de1fde18dd904910f1f968"
+    },
+    ".local/share/hyde/env-theme": {
+      "mode": 420,
+      "sha256": "b07a382f597bfe88e177dc6b7a5aafa6b25a4d33ed3befd0b7b360e001e7ccd8"
+    },
+    ".local/share/hyde/glyph.db": {
+      "mode": 420,
+      "sha256": "6583981226e9ad48276e4ba4411ec75ee136602c2fc632b835b0a22960dd551a"
+    },
+    ".local/share/hyde/migration/hypr/0.52_windowrules.conf": {
+      "mode": 420,
+      "sha256": "529810c1d5a1813a0640d08591aaa51c1f5de5d308e2790a21631ecff0e4defb"
+    },
+    ".local/share/hyde/rofi/assets/launchpad.png": {
+      "mode": 420,
+      "sha256": "cc5ecc2ce370d23eb633ea1b4846459a98ce755acd863b197075b367803756f0"
+    },
+    ".local/share/hyde/rofi/assets/notification.png": {
+      "mode": 420,
+      "sha256": "4460873c1adfc04d499207f1b7683f0356c80f27f572a61f50f6ec3c151c0f0e"
+    },
+    ".local/share/hyde/rofi/assets/steamdeck_holographic.png": {
+      "mode": 420,
+      "sha256": "9a4b1d5fe6911ca4369099aaa55725ec9cf4dc9eeec9843c1a396ba86b31d6a8"
+    },
+    ".local/share/hyde/rofi/assets/style_1.png": {
+      "mode": 420,
+      "sha256": "2c536d7dbfd04ee86c57c1b51951b4b0e6b72dee8085dd4d75892a38ede11257"
+    },
+    ".local/share/hyde/rofi/assets/style_10.png": {
+      "mode": 420,
+      "sha256": "33f94706dbf97c04cc081339424935f792a626b5cecc2d50295ff0cefa08513c"
+    },
+    ".local/share/hyde/rofi/assets/style_11.png": {
+      "mode": 420,
+      "sha256": "4430d32499f507cb47fa5c9b2f8d7bba11de778fd31a4b50a8282936ea96b7e7"
+    },
+    ".local/share/hyde/rofi/assets/style_12.png": {
+      "mode": 420,
+      "sha256": "259e54aa879198d519c0bcdc3db0b61701091d38fc59ea732636dcaf571f82d8"
+    },
+    ".local/share/hyde/rofi/assets/style_2.png": {
+      "mode": 420,
+      "sha256": "3054d4cf45c99485d4e39448e4ae8c6a3c596c02e1a96e2b8d3138c0e5876750"
+    },
+    ".local/share/hyde/rofi/assets/style_3.png": {
+      "mode": 420,
+      "sha256": "f2f970cac855f24e45a8e3a97430325933e538c0c0a4feff93fdb551249e7e84"
+    },
+    ".local/share/hyde/rofi/assets/style_4.png": {
+      "mode": 420,
+      "sha256": "a2e8b6d24963b774bc54d03b2ceb7cc0df7a548698b95a5a1c625605ae6f5151"
+    },
+    ".local/share/hyde/rofi/assets/style_5.png": {
+      "mode": 420,
+      "sha256": "fce6c5e8f863fe2e3fc120b443aa556e77657439044026b26565c195558e0177"
+    },
+    ".local/share/hyde/rofi/assets/style_6.png": {
+      "mode": 420,
+      "sha256": "6c640cef5953d3c22b5e8f870dfd6acfc00d37a7b5f6943fb986d7536770954b"
+    },
+    ".local/share/hyde/rofi/assets/style_7.png": {
+      "mode": 420,
+      "sha256": "3c97c0024cd460b2e557fc271ee7cd9e508a4e2ba4777f26b4c195617ffab95a"
+    },
+    ".local/share/hyde/rofi/assets/style_8.png": {
+      "mode": 420,
+      "sha256": "8a179fd42a74d7d37adb18b373b4328b90cc211d4a3a33e3e4c3f9766daded8d"
+    },
+    ".local/share/hyde/rofi/assets/style_9.png": {
+      "mode": 420,
+      "sha256": "e4b3f26586e36c1051bdd0f002946cbd87611c4ce21554dfc63e4d7338f580c6"
+    },
+    ".local/share/hyde/rofi/assets/theme_style_1.png": {
+      "mode": 420,
+      "sha256": "a524d68639f30341cc9f3374de5f7bdde164695943b3980f5386287c42507f6a"
+    },
+    ".local/share/hyde/rofi/assets/theme_style_2.png": {
+      "mode": 420,
+      "sha256": "9bae21315d550d0990064bb395cd69605e4accc0b591dab46ead4d490ded24cf"
+    },
+    ".local/share/hyde/rofi/assets/wallbash_mode.png": {
+      "mode": 420,
+      "sha256": "d1e0588499a777185dcdb27d9075076bfa1fdfd3fe8070ff5b715f6f1cc343b0"
+    },
+    ".local/share/hyde/rofi/themes/clipboard.rasi": {
+      "mode": 420,
+      "sha256": "2a1d6c81fd2c8fd86a9bb332b1296f50086937dc03dbad6e09e9eecbcad7e2fb"
+    },
+    ".local/share/hyde/rofi/themes/gamelauncher_1.rasi": {
+      "mode": 420,
+      "sha256": "c4edbf314131ce2be67077a6067bf1514966496afcb13d5d8918051c33890ca5"
+    },
+    ".local/share/hyde/rofi/themes/gamelauncher_2.rasi": {
+      "mode": 420,
+      "sha256": "e050c56a76eaa7de1c4dccf3ce9901310d9f9a652eb1bd1336549698766679c7"
+    },
+    ".local/share/hyde/rofi/themes/gamelauncher_3.rasi": {
+      "mode": 420,
+      "sha256": "f8338e77bb253cfa9ea1d8e439782258afb6c64bcb64704bc9fb020bf2657931"
+    },
+    ".local/share/hyde/rofi/themes/gamelauncher_4.rasi": {
+      "mode": 420,
+      "sha256": "d575714d82fcc099d4dd84e5a94f8b15ad25772c6b31b197d4639bc804b902b6"
+    },
+    ".local/share/hyde/rofi/themes/gamelauncher_5.rasi": {
+      "mode": 420,
+      "sha256": "4bf696c4e0308c570ef690dd7e3539b773e72d5524f31aca230523ef687e97b9"
+    },
+    ".local/share/hyde/rofi/themes/launchpad.rasi": {
+      "mode": 420,
+      "sha256": "aec0ba4f26fdd86de1ad07a01586fdadf8975c3afba89af9220a972e7124aab7"
+    },
+    ".local/share/hyde/rofi/themes/notification.rasi": {
+      "mode": 420,
+      "sha256": "1a87a0d27894c8d7aad65dd582cd3cf68f806669af1e1987bac5e1853024a5e3"
+    },
+    ".local/share/hyde/rofi/themes/quickapps.rasi": {
+      "mode": 420,
+      "sha256": "c993e3747929ca1bb01849a1eb84469c1e7a0b164d4626fb0303c1584994080c"
+    },
+    ".local/share/hyde/rofi/themes/selector.rasi": {
+      "mode": 420,
+      "sha256": "dec7c734cad4aace3f43fc5bb85498930e383017f2bec63b45bc0863bcf871a1"
+    },
+    ".local/share/hyde/rofi/themes/steam_deck.rasi": {
+      "mode": 420,
+      "sha256": "110f9aad477ee4df9c6ff02ae88451345abafce48fd45cd7acfd26421845d43f"
+    },
+    ".local/share/hyde/rofi/themes/style_1.rasi": {
+      "mode": 420,
+      "sha256": "54fb14787b9bd055038cda0ace5c6aca6743b61724ef12d5dd1b2b4245faf5b8"
+    },
+    ".local/share/hyde/rofi/themes/style_10.rasi": {
+      "mode": 420,
+      "sha256": "b70111fca1be1af9b8941fc47e4c806d796f159cb54c3cd47142351573aaee5b"
+    },
+    ".local/share/hyde/rofi/themes/style_11.rasi": {
+      "mode": 420,
+      "sha256": "e4c6aee5289467234af6a07275eff6b3e70c31fb9b7cf18733c9c6e6b9dbe447"
+    },
+    ".local/share/hyde/rofi/themes/style_12.rasi": {
+      "mode": 420,
+      "sha256": "b9abb12c17802c5549903c2440e013dc7f40c2889b9ae51729773f3407a2b645"
+    },
+    ".local/share/hyde/rofi/themes/style_2.rasi": {
+      "mode": 420,
+      "sha256": "de1f55f6954c73bb2323cb1261a6bcdff57970d19c8d4af5b8503cdd91d82c0c"
+    },
+    ".local/share/hyde/rofi/themes/style_3.rasi": {
+      "mode": 420,
+      "sha256": "8269426a75a595fbed53dbbd722adf77aadbdf23e3c074080a594219b8e63dd2"
+    },
+    ".local/share/hyde/rofi/themes/style_4.rasi": {
+      "mode": 420,
+      "sha256": "a80086b6eb93af75e8b83b50dc004b635050286a1170de05cb5bc990ddfa0f71"
+    },
+    ".local/share/hyde/rofi/themes/style_5.rasi": {
+      "mode": 420,
+      "sha256": "6b67ad2586c9761b20b38a3c6aeb93f9bfa68f50314fdad1a147984886cf7eb6"
+    },
+    ".local/share/hyde/rofi/themes/style_6.rasi": {
+      "mode": 420,
+      "sha256": "d8130964faea537f9d154fd677ffc65c5fd36d704ec7ce4dfdd1fd2acc32d211"
+    },
+    ".local/share/hyde/rofi/themes/style_7.rasi": {
+      "mode": 420,
+      "sha256": "cbe830a7623635af99c2b367133b91c7b537ebba3f1af59cc7572730313dc83a"
+    },
+    ".local/share/hyde/rofi/themes/style_8.rasi": {
+      "mode": 420,
+      "sha256": "4b01e85e9299c535619d6e401905a91d84f990b9f8d4174daa18890c24c2896a"
+    },
+    ".local/share/hyde/rofi/themes/style_9.rasi": {
+      "mode": 420,
+      "sha256": "e191a66acb5c90019c0aa6ab132aa34229a4ea6e4a8bfb1abf29c50f9b29b0c2"
+    },
+    ".local/share/hyde/rofi/themes/wallbash.rasi": {
+      "mode": 420,
+      "sha256": "482a7edea1d6f1be683c463404e8ce0250f3e9495708ab14d30fa53f0de3c2c4"
+    },
+    ".local/share/hyde/theme-env": {
+      "mode": 420,
+      "sha256": "209f3a24672ddea917045230868be466b11b17f59d13d4912207ae1197fd6a22"
+    },
+    ".local/share/hyde/websearch.lst": {
+      "mode": 420,
+      "sha256": "e813184f1ff031b1c4b12de5a25fc1da72b8078e67d0a2c6543a05543d740d7b"
+    },
+    ".local/share/hypr/defaults.conf": {
+      "mode": 420,
+      "sha256": "db82adae7a2fdce4525d74ff3b4fba79ab7efafa6c608d2c36032436240e6b87"
+    },
+    ".local/share/hypr/dynamic.conf": {
+      "mode": 420,
+      "sha256": "8081c7cf5e382ebdfea9a37c4ddd6643734d6d022f3b03c345e270a69af246f6"
+    },
+    ".local/share/hypr/env.conf": {
+      "mode": 420,
+      "sha256": "96489be712c8630c0b0370b3b61eb665004a5e8ec696d771566b2164bb8d10e8"
+    },
+    ".local/share/hypr/finale.conf": {
+      "mode": 420,
+      "sha256": "de8503789564677896fdc7e86b5205fe8cd087213fd7b2feeada19740369a9fb"
+    },
+    ".local/share/hypr/hyde.lua": {
+      "mode": 493,
+      "sha256": "be75b5b1c46cc279a0d2ced6e3762bd556e6338f4248377a629762e0dd1288ec"
+    },
+    ".local/share/hypr/hyprland.conf": {
+      "mode": 420,
+      "sha256": "af51cc5b9e22cf1834505cac7a8c15601d270254700e5716891c2ef2f0e0620d"
+    },
+    ".local/share/hypr/hyprlock-fingerprint.conf": {
+      "mode": 420,
+      "sha256": "51f554d609a564a00eea96416fdb58401e6c8661edd49504923e175943cfa425"
+    },
+    ".local/share/hypr/hyprlock.conf": {
+      "mode": 420,
+      "sha256": "8e36a6cf3e9f4eb2f3dbdaf7856f8d57b648778f6a8640b4bbf491c996c18040"
+    },
+    ".local/share/hypr/lua/animations/00-disable.lua": {
+      "mode": 420,
+      "sha256": "d59d64a8092cfc82eb49ad14723c03e4cc4d0ef1eac608b90858923425fc0313"
+    },
+    ".local/share/hypr/lua/animations/01-default.lua": {
+      "mode": 420,
+      "sha256": "3432739801ccfd8045bbdd1d43076564a5e401970a29d1233e7647c22cf8e5d0"
+    },
+    ".local/share/hypr/lua/animations/classic.lua": {
+      "mode": 420,
+      "sha256": "0a949dce29da12cd530f01ad466382144231fcbd080461eafda62284d613b36c"
+    },
+    ".local/share/hypr/lua/animations/diablo-1.lua": {
+      "mode": 420,
+      "sha256": "5b19d41fde6523df94dd9149715e78f53ebd778fe36bedc0e568e16cfaf1a455"
+    },
+    ".local/share/hypr/lua/animations/diablo-2.lua": {
+      "mode": 420,
+      "sha256": "0256e4647eea2086c5339b6eb22b9918ec698d3061e31972614ffa412258e417"
+    },
+    ".local/share/hypr/lua/animations/end4.lua": {
+      "mode": 420,
+      "sha256": "443261fff558d1474cf7dab5b5f9e8ab40ff55557a59dc197717ce72ad1976bf"
+    },
+    ".local/share/hypr/lua/animations/fast.lua": {
+      "mode": 420,
+      "sha256": "081a86b65a7c58c525f9cf2cfc322fc41ec1e7721d632fe475e85aef84ce3a0e"
+    },
+    ".local/share/hypr/lua/animations/gnome.lua": {
+      "mode": 420,
+      "sha256": "cffff9c5374710257c211b3f19cde6acc547c0bf95dabac3afd65783fb43196b"
+    },
+    ".local/share/hypr/lua/animations/ja.lua": {
+      "mode": 420,
+      "sha256": "f61fb2b21bc5309aac38883b33b74ab0b1b5745ab2e078b4fdce0368318d09a7"
+    },
+    ".local/share/hypr/lua/animations/limefrenzy.lua": {
+      "mode": 420,
+      "sha256": "1f1f50b506f94a18f3906e860837b9623c93cb17e646184d851bdea3c4a356df"
+    },
+    ".local/share/hypr/lua/animations/macos.lua": {
+      "mode": 420,
+      "sha256": "c155255db72f749af1fbf1d5abdffa1de49a15886e704794f443dc0a7cf4967f"
+    },
+    ".local/share/hypr/lua/animations/me-1.lua": {
+      "mode": 420,
+      "sha256": "26148923de5a7de6bb82a1c31d114141145ce7e23e92b8ed4153e5a8108c3519"
+    },
+    ".local/share/hypr/lua/animations/me-2.lua": {
+      "mode": 420,
+      "sha256": "8082d4eec8b281ab0cdfc342816eabaa6755bab5e03dd520b1c9c4e36bd4b2dc"
+    },
+    ".local/share/hypr/lua/animations/minimal-2.lua": {
+      "mode": 420,
+      "sha256": "19b76e88c68ab30faf9ccc216f1381bbeb1ad249d53425ab98be354469c13114"
+    },
+    ".local/share/hypr/lua/animations/moving.lua": {
+      "mode": 420,
+      "sha256": "f9e901d601f08214ef7ca76b9054c2a478d68d62495ca18b53f460ae9c701962"
+    },
+    ".local/share/hypr/lua/animations/optimized.lua": {
+      "mode": 420,
+      "sha256": "8bb679b356d0b1d3e7ff49015d9481e9a03743803f6d266b15de61b4bf72ef03"
+    },
+    ".local/share/hypr/lua/animations/standard.lua": {
+      "mode": 420,
+      "sha256": "12ed63dfc62085432ed409e0e64654902b13cf780d8e91fc5fc31dd560cc6406"
+    },
+    ".local/share/hypr/lua/animations/vertical.lua": {
+      "mode": 420,
+      "sha256": "568d2551f43f1922f779bf97bdc2146eeee44f30ff2a1c3913b5b9265fd7c2d7"
+    },
+    ".local/share/hypr/lua/defaults.lua": {
+      "mode": 420,
+      "sha256": "8141e89cfe6d080916677c20a7b86fcdb0e0b280ec5da145840f848397bda131"
+    },
+    ".local/share/hypr/lua/dynamic.lua": {
+      "mode": 420,
+      "sha256": "3e92a5c106c25b2bb1c0fff8e2559fae9e0165516cd90369e84c2a282f22d88d"
+    },
+    ".local/share/hypr/lua/env.lua": {
+      "mode": 420,
+      "sha256": "6903d364fd77f55b13198ed50590216d0599b3c06d34f2703b638570c9676a00"
+    },
+    ".local/share/hypr/lua/events.lua": {
+      "mode": 420,
+      "sha256": "34f4a34c9889f7e743641bcb4337fa3e7c4b68ea85606b50f52ed7968d29231c"
+    },
+    ".local/share/hypr/lua/hyde/animations.lua": {
+      "mode": 420,
+      "sha256": "a03319dd33192a97a1edeb2a50b74d2b803259deb66289cd963a745d2c48c8e6"
+    },
+    ".local/share/hypr/lua/hyde/binds.lua": {
+      "mode": 420,
+      "sha256": "29f5455136ffe833ed91f832d1237606ab9ca9c0760b9f94163ab42c71e187e1"
+    },
+    ".local/share/hypr/lua/hyde/config.lua": {
+      "mode": 420,
+      "sha256": "582619d3830e36eadf0aae1a48a036597365d095afe5db1ad2832bd149f1639e"
+    },
+    ".local/share/hypr/lua/hyde/dispatcher.lua": {
+      "mode": 420,
+      "sha256": "3f3c15aa8bc0e8a20781d537dd0aef7cf8fdc86c24cac7d166a47591e501ed08"
+    },
+    ".local/share/hypr/lua/hyde/env.lua": {
+      "mode": 420,
+      "sha256": "15807b7efdd54101138d1eef99b23e9f0de7f064edc1c7900f96030c07d4e894"
+    },
+    ".local/share/hypr/lua/hyde/handlers.lua": {
+      "mode": 420,
+      "sha256": "3c092efb9ddcb82bfed810d5932eda9f73adcffc2f9cb148d3f9f14038a24b62"
+    },
+    ".local/share/hypr/lua/hyde/path.lua": {
+      "mode": 420,
+      "sha256": "0dabf185ae484ecea23488f45352012b9129df81357f88622f1acd7f31389749"
+    },
+    ".local/share/hypr/lua/hyde/utils.lua": {
+      "mode": 420,
+      "sha256": "ceb8918767abf19b594a79fe5bbbb9f8f12b4259c4481ece2f753c957aa83c21"
+    },
+    ".local/share/hypr/lua/key_binds.lua": {
+      "mode": 420,
+      "sha256": "6228cd02eca4438851a0ce45cee633966d836c055440ae7b1c563a5dc1cc5321"
+    },
+    ".local/share/hypr/lua/layer_rules.lua": {
+      "mode": 420,
+      "sha256": "fcd3d0536c54c93b17ddafc01bc558a9fd45262c49d4c1fd2598d6d203c8e4a7"
+    },
+    ".local/share/hypr/lua/layouts/00.lua": {
+      "mode": 420,
+      "sha256": "5612df9f4c59a5afa1111893941d3440c284040963609e81aca45c3869c09a0e"
+    },
+    ".local/share/hypr/lua/layouts/dwindle.lua": {
+      "mode": 420,
+      "sha256": "3e1bea5fd6bc08c03b2c0d7c2f27f406f9e815a70137ff3c8a11b499cfcb055e"
+    },
+    ".local/share/hypr/lua/layouts/master.lua": {
+      "mode": 420,
+      "sha256": "35b90280bdb5c727683ea4b9a07e893a4197c006a8e40db720e3c68b5a6a650a"
+    },
+    ".local/share/hypr/lua/layouts/monocle.lua": {
+      "mode": 420,
+      "sha256": "afcff311a523bc78a2440e8fbc48faeba3761fd392162a36f28e53411316acb0"
+    },
+    ".local/share/hypr/lua/layouts/scrolling-down.lua": {
+      "mode": 420,
+      "sha256": "35ab7b2cb7fafa3b4011c93765f62faba3a3acedb577aeb0d018d785326d0f4e"
+    },
+    ".local/share/hypr/lua/layouts/scrolling.lua": {
+      "mode": 420,
+      "sha256": "f11e1e6447b27638f526dcdc1540be8212f63e49a9d328222800b11b79432727"
+    },
+    ".local/share/hypr/lua/lib/toml.lua": {
+      "mode": 420,
+      "sha256": "0a0ad7edaac6b95f4da4c3312a24465390367dfeb68c57776fd70334b0f97858"
+    },
+    ".local/share/hypr/lua/start_up.lua": {
+      "mode": 420,
+      "sha256": "eff9798ffd04df90529b440b5d8dc291497a5dc5d3445dcde4f0d3cbb9b8ad9a"
+    },
+    ".local/share/hypr/lua/variables.lua": {
+      "mode": 420,
+      "sha256": "4a473c62c97a81e2cb9d74b4047ec70b3080a148ca883908304e3030eea73c40"
+    },
+    ".local/share/hypr/lua/window_rules.lua": {
+      "mode": 420,
+      "sha256": "5e53fc20f731d0dcc844519538334943920ddfe5273ffa7f3a425fc83aa0bcdb"
+    },
+    ".local/share/hypr/lua/workflows/01-default.lua": {
+      "mode": 420,
+      "sha256": "bd3113e98857b2bfe89b619a81b7e7b6f134da2c78b54963246f9c5c849610d5"
+    },
+    ".local/share/hypr/lua/workflows/editing.lua": {
+      "mode": 420,
+      "sha256": "99469b7bae65d694712b0ee223e05abff66425e4cccb471c524e29684709e4b0"
+    },
+    ".local/share/hypr/lua/workflows/gaming.lua": {
+      "mode": 420,
+      "sha256": "9d677097e45452a582d00c2ded38e69c34169342416143935fa684d92aa5b903"
+    },
+    ".local/share/hypr/lua/workflows/powersaver.lua": {
+      "mode": 420,
+      "sha256": "8a1608da8f20224b98aa29cd1bc6827937d443ab91c155c034af44bfac9c89f2"
+    },
+    ".local/share/hypr/lua/workflows/snappy.lua": {
+      "mode": 420,
+      "sha256": "91694148e5b145765476b2419605540c9f9320165783b070117467423d8bff0f"
+    },
+    ".local/share/hypr/migration.conf": {
+      "mode": 420,
+      "sha256": "41f45ab18672fe92be3c2325f020db30c845addb7e8a3a0045a6cb3aa6dc9103"
+    },
+    ".local/share/hypr/schema/hyprland-lua.json": {
+      "mode": 420,
+      "sha256": "e34a7932ee32b940320cac0374e9d34f478e3e1b3e2593fd247e885208c1e42b"
+    },
+    ".local/share/hypr/startup.conf": {
+      "mode": 420,
+      "sha256": "39c2b94e30835a38fe7606a6b23ea23503cd00ab3fbbc7be338c21bb9fd8b00b"
+    },
+    ".local/share/hypr/variables.conf": {
+      "mode": 420,
+      "sha256": "f2fbaaae7ca71a2b14d2f0f50fe58f04a7c0db3cfc0de87cb8f42ae6d551ef53"
+    },
+    ".local/share/hypr/windowrules.conf": {
+      "mode": 420,
+      "sha256": "c7c4c26896495c1cf84ba214eeace4c34e37217eeaea9e930714a948b8106234"
+    },
+    ".local/share/kservices5/ServiceMenus/openVSCode.desktop": {
+      "mode": 493,
+      "sha256": "624bea6403eed0cf01c853e50a10806f890db0896008460cee5c6c45da97652c"
+    },
+    ".local/share/rofi/themes/clipboard.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/clipboard.rasi"
+    },
+    ".local/share/rofi/themes/gamelauncher_1.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/gamelauncher_1.rasi"
+    },
+    ".local/share/rofi/themes/gamelauncher_2.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/gamelauncher_2.rasi"
+    },
+    ".local/share/rofi/themes/gamelauncher_3.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/gamelauncher_3.rasi"
+    },
+    ".local/share/rofi/themes/gamelauncher_4.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/gamelauncher_4.rasi"
+    },
+    ".local/share/rofi/themes/gamelauncher_5.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/gamelauncher_5.rasi"
+    },
+    ".local/share/rofi/themes/launchpad.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/launchpad.rasi"
+    },
+    ".local/share/rofi/themes/notification.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/notification.rasi"
+    },
+    ".local/share/rofi/themes/quickapps.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/quickapps.rasi"
+    },
+    ".local/share/rofi/themes/selector.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/selector.rasi"
+    },
+    ".local/share/rofi/themes/steam_deck.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/steam_deck.rasi"
+    },
+    ".local/share/rofi/themes/style_1.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/style_1.rasi"
+    },
+    ".local/share/rofi/themes/style_10.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/style_10.rasi"
+    },
+    ".local/share/rofi/themes/style_11.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/style_11.rasi"
+    },
+    ".local/share/rofi/themes/style_12.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/style_12.rasi"
+    },
+    ".local/share/rofi/themes/style_2.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/style_2.rasi"
+    },
+    ".local/share/rofi/themes/style_3.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/style_3.rasi"
+    },
+    ".local/share/rofi/themes/style_4.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/style_4.rasi"
+    },
+    ".local/share/rofi/themes/style_5.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/style_5.rasi"
+    },
+    ".local/share/rofi/themes/style_6.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/style_6.rasi"
+    },
+    ".local/share/rofi/themes/style_7.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/style_7.rasi"
+    },
+    ".local/share/rofi/themes/style_8.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/style_8.rasi"
+    },
+    ".local/share/rofi/themes/style_9.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/style_9.rasi"
+    },
+    ".local/share/rofi/themes/wallbash.rasi": {
+      "link": "/home/amadeus177153/.local/share/hyde/rofi/themes/wallbash.rasi"
+    },
+    ".local/share/wallbash/always/00-icons/hyprdots.dcol": {
+      "mode": 420,
+      "sha256": "099c78f685f2a6566fb8ef42056f0f86eebb688613b9706488a62a01dfd73860"
+    },
+    ".local/share/wallbash/always/00-icons/muted-mic.dcol": {
+      "mode": 420,
+      "sha256": "a2c2e069aafb7635067f3b7f06e981b250d12ff0525281d0bfb8a37d661e21bd"
+    },
+    ".local/share/wallbash/always/00-icons/muted-speaker.dcol": {
+      "mode": 420,
+      "sha256": "f52c9c0878b244831b423bd088832f33ab3d220bd7ccbc1b1bab18907e779444"
+    },
+    ".local/share/wallbash/always/00-icons/unmuted-mic.dcol": {
+      "mode": 420,
+      "sha256": "057bab5e93464b8d43bc962864dfdc7534af12aaf35fd81dd292d7dad0fded39"
+    },
+    ".local/share/wallbash/always/00-icons/unmuted-speaker.dcol": {
+      "mode": 420,
+      "sha256": "29f7a97b17d991805045b63efa991b73940a08f424cc725fdfde7981bee04a14"
+    },
+    ".local/share/wallbash/always/00-icons/vol-0.dcol": {
+      "mode": 420,
+      "sha256": "cc972c48201455aefed0907bd8add004e2391f5d79b7c3ffcf6b77e32029006a"
+    },
+    ".local/share/wallbash/always/00-icons/vol-10.dcol": {
+      "mode": 420,
+      "sha256": "e531d7f2ee9f855e3cb7a23fd9990b42d0fe90ddfd14578e96ddec6bfb703a55"
+    },
+    ".local/share/wallbash/always/00-icons/vol-100.dcol": {
+      "mode": 420,
+      "sha256": "0d0640047304246b17f2816b77424d89de911afd506eb61193c7c46f9a851b55"
+    },
+    ".local/share/wallbash/always/00-icons/vol-15.dcol": {
+      "mode": 420,
+      "sha256": "85c2f782496be7e74032b2d2ade556ff3426bea8d7cb1f034380a957280b2ec6"
+    },
+    ".local/share/wallbash/always/00-icons/vol-20.dcol": {
+      "mode": 420,
+      "sha256": "b8eaf2af2239a3e8e3c0477b4f48d473b1fd203e0e4370305ba5d619202ed115"
+    },
+    ".local/share/wallbash/always/00-icons/vol-25.dcol": {
+      "mode": 420,
+      "sha256": "351dafa24c9fa9bb08ae51e36d05b27757bdeaf38e5c8c6b3bb92755286ad8e1"
+    },
+    ".local/share/wallbash/always/00-icons/vol-30.dcol": {
+      "mode": 420,
+      "sha256": "023be08099ba9a6c38d5d541f70cde47c7138705db80ee4337c5c8702ebc0200"
+    },
+    ".local/share/wallbash/always/00-icons/vol-35.dcol": {
+      "mode": 420,
+      "sha256": "b7f0e283a9368249914e325fcb8ee40831cb3f4244eb169efda456326d3261ae"
+    },
+    ".local/share/wallbash/always/00-icons/vol-40.dcol": {
+      "mode": 420,
+      "sha256": "242ff49bb5e81a99be0c40c0b83dfe08bcd9bde7fa759742888a441c3c123ab2"
+    },
+    ".local/share/wallbash/always/00-icons/vol-45.dcol": {
+      "mode": 420,
+      "sha256": "b24547b833ec7ffe34004c9818aa35a27f3db0b4e64939f8582526f49cfaa3cc"
+    },
+    ".local/share/wallbash/always/00-icons/vol-5.dcol": {
+      "mode": 420,
+      "sha256": "5fe6aefedc540ee1e827b44cd51e37c23fb1c62e9b3eb6ee437f7dfa818e8690"
+    },
+    ".local/share/wallbash/always/00-icons/vol-50.dcol": {
+      "mode": 420,
+      "sha256": "318314914215c5ab6c1152dd05ac7d37338d43568cec284d9be4e63f17945774"
+    },
+    ".local/share/wallbash/always/00-icons/vol-55.dcol": {
+      "mode": 420,
+      "sha256": "781566167efbe3008fdb23973d61e5ab8643355eb8bc9de2cad123fa77d55e97"
+    },
+    ".local/share/wallbash/always/00-icons/vol-60.dcol": {
+      "mode": 420,
+      "sha256": "1e47459a3aec6b2c1a6a8073dc9d9e610066807752bfba2a32653fe0303c8c71"
+    },
+    ".local/share/wallbash/always/00-icons/vol-65.dcol": {
+      "mode": 420,
+      "sha256": "f488542abd2b6657ffbd8f8c20e9c5a2b4e38abf61adc0f14ea1b81af781621d"
+    },
+    ".local/share/wallbash/always/00-icons/vol-70.dcol": {
+      "mode": 420,
+      "sha256": "043a39c26cb5f588c0c6ae3e3b70059d22f7c251a1ed4431d6ac78c1b701c9d4"
+    },
+    ".local/share/wallbash/always/00-icons/vol-75.dcol": {
+      "mode": 420,
+      "sha256": "1600e09e0d3ef9dd54076ffdc61224c008ab099edd4ba73eab910fe6297fa1e3"
+    },
+    ".local/share/wallbash/always/00-icons/vol-80.dcol": {
+      "mode": 420,
+      "sha256": "ba3ef063ba1c806a712b253f23de08ec7167f1ecef3f2667d604f88e2b4a95c3"
+    },
+    ".local/share/wallbash/always/00-icons/vol-85.dcol": {
+      "mode": 420,
+      "sha256": "b6e0ac6dc3b0514212be17cc5639414e72831de65deec6cc2fafac88427f70c1"
+    },
+    ".local/share/wallbash/always/00-icons/vol-90.dcol": {
+      "mode": 420,
+      "sha256": "d632eb833573f545c04b1c0ef3e4a6529866c24ca21d5cbbbfd6fb22c2833582"
+    },
+    ".local/share/wallbash/always/00-icons/vol-95.dcol": {
+      "mode": 420,
+      "sha256": "9465a2defd5058b0168bae60eb2a46cae1d11699289f6540a2754ca5e4e9273c"
+    },
+    ".local/share/wallbash/always/00-palette/palette_v2.t2": {
+      "mode": 420,
+      "sha256": "716ecc9e737fd95adddb23d413bb0380576471042ce93f379a386dba9c53849e"
+    },
+    ".local/share/wallbash/always/00-palette/palette_v3.t2": {
+      "mode": 420,
+      "sha256": "701e354bf1352a1e620f39c106b0b4b22512dd49844ef0b83c109b8113cd050c"
+    },
+    ".local/share/wallbash/always/dunst.dcol": {
+      "mode": 420,
+      "sha256": "9f7275290bc38e4f32c7455a9c37b8f1fe2a85a0d19cc5e8022c413a5176a13c"
+    },
+    ".local/share/wallbash/always/gtk-css.dcol": {
+      "mode": 420,
+      "sha256": "1e075bcc8127607e4ed8075621fe017873e23644dc8818faab68c3699bf0a168"
+    },
+    ".local/share/wallbash/always/hyprcolors.dcol": {
+      "mode": 420,
+      "sha256": "aa7d1df5348a65c0a4691e6616d9b4365a605c6a634a92187ea7b0028a9ee779"
+    },
+    ".local/share/wallbash/always/hyprlock_background.dcol": {
+      "mode": 420,
+      "sha256": "84181fedc8ee9484550f7c4a6fb23069ce12c2da4b37a21107821fd90811ff53"
+    },
+    ".local/share/wallbash/always/hyprshaders.dcol": {
+      "mode": 420,
+      "sha256": "3775b6da9bfbac285f9246d9f9f4335375c3c43d471312a7c2d1b19fe1777f91"
+    },
+    ".local/share/wallbash/always/lua.dcol": {
+      "mode": 420,
+      "sha256": "42be627ee9254257fd10fee054d7827e3de8678d7dcd2ec622e07b1345cc077e"
+    },
+    ".local/share/wallbash/always/pywal-colors.Xcol": {
+      "mode": 420,
+      "sha256": "d367adab3ece28002f587dae9897e1681ef8b1da07b6fce522559d0cebb84038"
+    },
+    ".local/share/wallbash/always/qtct.dcol": {
+      "mode": 420,
+      "sha256": "46733f0b9f2f5cdc2a7421d09ea43d8fecf6af0c40acc51186fabd3dd2b370ed"
+    },
+    ".local/share/wallbash/always/rasi.dcol": {
+      "mode": 420,
+      "sha256": "6e6e2c80808a19883396de50901c0cac6f033ac0fe0fb6528ea95e2de610c5d7"
+    },
+    ".local/share/wallbash/always/scss.dcol": {
+      "mode": 420,
+      "sha256": "69810f7df76422433b638ab8e086add0cbcb45bc1d04c482d8be17ffb8d5af12"
+    },
+    ".local/share/wallbash/always/shell-colors.dcol": {
+      "mode": 420,
+      "sha256": "9827157fbb4f187522484c48524f96d55e983cdcfb114e683ba539955ca833e3"
+    },
+    ".local/share/wallbash/scripts/dunst.sh": {
+      "mode": 493,
+      "sha256": "d4173ede31e815b5a6f8c357a35b24b09d62302b02f03d6efe266438361d7f93"
+    },
+    ".local/share/wallbash/scripts/kitty.sh": {
+      "mode": 493,
+      "sha256": "cfc7936c7f2d5f878c851922bbcd2931ef644b2a14d6da88219d40b70fc85a3e"
+    },
+    ".local/share/wallbash/scripts/qtct.sh": {
+      "mode": 493,
+      "sha256": "3f12e4b49a5e18542c094299aee6447c9673d2bdebc6f99fe19ebc9b992281ea"
+    },
+    ".local/share/wallbash/scripts/swaync.sh": {
+      "mode": 493,
+      "sha256": "b5a82e64824aeb64f17120a236be9c24778cca9d2cdc9ed82b13f5ddcbbc9f8b"
+    },
+    ".local/share/wallbash/theme/animations.dcol": {
+      "mode": 420,
+      "sha256": "553962dc7f390e9cc229b65a4abf469f46d9db396292200fe280ee8a122f5467"
+    },
+    ".local/share/wallbash/theme/gtk/gtk2.dcol": {
+      "mode": 420,
+      "sha256": "4ba1b2c3426c492b829caa2f45ca0e9411c658feb64a1e3feced8c3fb0bad287"
+    },
+    ".local/share/wallbash/theme/gtk/gtk2.hidpi.dcol": {
+      "mode": 420,
+      "sha256": "8d0aae7a522175f77f9f106f407b2b8fdc32fee08dbf7f87467706f141662659"
+    },
+    ".local/share/wallbash/theme/gtk/gtk3.dcol": {
+      "mode": 420,
+      "sha256": "4ad38b116e006a99ba2636d2a2a1135f87daaf87c60d843de3f8cd7059ab2083"
+    },
+    ".local/share/wallbash/theme/gtk/gtk4.dcol": {
+      "mode": 420,
+      "sha256": "93d8573542efc316a29d7e94999610585225b3dad5607b0f019d37de1af5c922"
+    },
+    ".local/share/wallbash/theme/hypr.dcol": {
+      "mode": 420,
+      "sha256": "07e1f4a7c21273d2b0a71972ca3bd2204ba8850592eb14b40f5f471f5862663e"
+    },
+    ".local/share/wallbash/theme/hyprlock.dcol": {
+      "mode": 420,
+      "sha256": "0487aecfd321db799f97231b83038aef63ed5eb422a5a841182cc6dbe34e1d8b"
+    },
+    ".local/share/wallbash/theme/kitty.dcol": {
+      "mode": 420,
+      "sha256": "573fdeced7ed271a13695f9207098a0cded4355352e4a3118b72201a8b84ed17"
+    },
+    ".local/share/wallbash/theme/kvantum/kvantum.dcol": {
+      "mode": 420,
+      "sha256": "77eda64b682ea10b61adb630f5c5f990c59f52c619311ad64b6fed392bf61efb"
+    },
+    ".local/share/wallbash/theme/kvantum/kvconfig.dcol": {
+      "mode": 420,
+      "sha256": "02db922c42f499e11d91b1233b6a4aa67a1b49db35e46379acc4927291ed0479"
+    },
+    ".local/share/wallbash/theme/rofi.dcol": {
+      "mode": 420,
+      "sha256": "12261480716b2cfa4eceb234a06479e01a804c80d49cd93698a2610811a3ed96"
+    },
+    ".local/share/wallbash/theme/swaync.dcol": {
+      "mode": 420,
+      "sha256": "09ae8cd16d2dc618d6a017f9c779a05db26691daa8f1ec38ab33e587d3f182ac"
+    },
+    ".local/share/wallbash/theme/waybar.dcol": {
+      "mode": 420,
+      "sha256": "b66d965aadbab9fa0d30f31b8526b6df4ca488ab09d462ed0cbbb0495d8234d9"
+    },
+    ".local/share/waybar/includes/border-radius.css": {
+      "mode": 420,
+      "sha256": "baf7e80cf6be77bc19f5870a4201544ebac73ca1a84111dc868d9aece2564ea9"
+    },
+    ".local/share/waybar/includes/global.css": {
+      "mode": 420,
+      "sha256": "c6d7700439e46f89a7fd78d057a5805653703a7ecc7975697f16a11955eff137"
+    },
+    ".local/share/waybar/layouts/hyprdots/01.jsonc": {
+      "mode": 420,
+      "sha256": "bbb55b86abfa87b10d55c65974b0488a9c938e85dd12fa0959e6f75c3e852866"
+    },
+    ".local/share/waybar/layouts/hyprdots/02.jsonc": {
+      "mode": 420,
+      "sha256": "1ce43a5ab63f37509a4f21e9311173d02202d1efec497189c04786f12986ac5a"
+    },
+    ".local/share/waybar/layouts/hyprdots/03.jsonc": {
+      "mode": 420,
+      "sha256": "2104d1ab2c195f982068cd7717a116964a0d1a76ed78a267ef77f2999f629e38"
+    },
+    ".local/share/waybar/layouts/hyprdots/04.jsonc": {
+      "mode": 420,
+      "sha256": "2a95ea156470fc6ba2035a566be530082b51d774b47872fa441ff2d522fee5be"
+    },
+    ".local/share/waybar/layouts/hyprdots/05.jsonc": {
+      "mode": 420,
+      "sha256": "ceaaf6f557270e51f9bf85799219ba140b07e9f0ece281c4b16c75b9b6c7ba17"
+    },
+    ".local/share/waybar/layouts/hyprdots/06.jsonc": {
+      "mode": 420,
+      "sha256": "c421c474a129675cffbc1de8f54c39584de644f79fb1a02a8190faae15976f8f"
+    },
+    ".local/share/waybar/layouts/hyprdots/07.jsonc": {
+      "mode": 420,
+      "sha256": "f4173acb243a9e5e718fe1454c8358ca20aedbce08ec6d0936bbfa33c88fa337"
+    },
+    ".local/share/waybar/layouts/hyprdots/08.jsonc": {
+      "mode": 420,
+      "sha256": "8d52ddf82915917436ec15fabb3269496339e8e4ea2b344017effe9efaecb071"
+    },
+    ".local/share/waybar/layouts/hyprdots/09.jsonc": {
+      "mode": 420,
+      "sha256": "8d52ddf82915917436ec15fabb3269496339e8e4ea2b344017effe9efaecb071"
+    },
+    ".local/share/waybar/layouts/hyprdots/10.jsonc": {
+      "mode": 420,
+      "sha256": "c1735339af3f54e63142e73bb45f9c0c09b1038a619c3d3ee012cfbc5ca00634"
+    },
+    ".local/share/waybar/layouts/hyprdots/11.jsonc": {
+      "mode": 420,
+      "sha256": "99e89ac734f70b614962368f54fff336f7f141d5681e8b51687a4866d4a482f4"
+    },
+    ".local/share/waybar/layouts/hyprdots/12.jsonc": {
+      "mode": 420,
+      "sha256": "ca1d9a0a516db7b1ff5cc34f0a9d630586f045db6bcf29d980bb0564fa051b7a"
+    },
+    ".local/share/waybar/layouts/hyprdots/13.jsonc": {
+      "mode": 420,
+      "sha256": "15206a7f780b2ad2baf77be14b2ff0b6a6873a5c93277a2c7c25dfbdbf1f74d1"
+    },
+    ".local/share/waybar/layouts/hyprdots/14.jsonc": {
+      "mode": 420,
+      "sha256": "73e6ae0907b3f23b51e7a631168bdf2055ed86b25ddc15b2ce510024947923c9"
+    },
+    ".local/share/waybar/layouts/hyprdots/15.jsonc": {
+      "mode": 420,
+      "sha256": "a853b3767a7788e4534e931a05483b92c109bd721769d1e4d24eee7f0504da32"
+    },
+    ".local/share/waybar/layouts/hyprdots/16.jsonc": {
+      "mode": 420,
+      "sha256": "7a48cbe34fe6fedfa4e075dcbbd92280b22d8c61fa363fd5791d809dfd37b129"
+    },
+    ".local/share/waybar/layouts/hyprdots/17.jsonc": {
+      "mode": 420,
+      "sha256": "75726c0d4fefcdc85f24ad829a5296b22996dd11dc8c8056154e47b372392841"
+    },
+    ".local/share/waybar/layouts/khing.jsonc": {
+      "mode": 420,
+      "sha256": "590591a8d9ff4da4dfe88ce3e8a41e27289baa291fe4da651488488d37d96e2a"
+    },
+    ".local/share/waybar/layouts/macos.jsonc": {
+      "mode": 420,
+      "sha256": "ffa4b2576c7bbe1211bf3194e7e8b7b3f1b7ae682c831efee66d2f17cb7fbd9f"
+    },
+    ".local/share/waybar/menus/clipboard.xml": {
+      "mode": 420,
+      "sha256": "a47e5f360f0f70b85ee0570e8e77f05edb46342723b37483fe3acff1f6d4c9bc"
+    },
+    ".local/share/waybar/menus/dunst.xml": {
+      "mode": 420,
+      "sha256": "234235f6ea11728580c96045d2af367b00ee09a3838349b130712f3d138ef33c"
+    },
+    ".local/share/waybar/menus/gpuinfo.xml": {
+      "mode": 420,
+      "sha256": "bd58efc4885811e46e85b783f4740b92e446529e577b309efcd6af4ebb4f5ace"
+    },
+    ".local/share/waybar/menus/hyde-menu.xml": {
+      "mode": 420,
+      "sha256": "cb63a979fa8d267c026464de9c6b3ce6cfb7fb90a88364d95d8e5adbc4741439"
+    },
+    ".local/share/waybar/menus/hyprsunset.xml": {
+      "mode": 420,
+      "sha256": "7eabe2582c2362212cbca9cfa839a2489d3db0a6e3f7f18b1686ae4b40ddd276"
+    },
+    ".local/share/waybar/menus/mediaplayer.xml": {
+      "mode": 420,
+      "sha256": "1f0204a6e7328077a3bf24a0a18bad654546c40d4627bb91f633599d1fe6482d"
+    },
+    ".local/share/waybar/menus/power.xml": {
+      "mode": 420,
+      "sha256": "20c1eed6acc12242bf021d70a812b594a6f76d011a93ed37ce56998f296a274b"
+    },
+    ".local/share/waybar/menus/pulseaudio.xml": {
+      "mode": 420,
+      "sha256": "52380687a6fb2e8ef513b2cf54bd7687f9143fd0897c1aa215c764f0df90f149"
+    },
+    ".local/share/waybar/menus/spotify.xml": {
+      "mode": 420,
+      "sha256": "055098c9ba2726b103663fac224a8fb7cb66bcdc2deb9e74a0f6f3d5a663395a"
+    },
+    ".local/share/waybar/menus/swaync.xml": {
+      "mode": 420,
+      "sha256": "ae59f201aa6c23ca9d7263b33243e5c58d5ffac82738dd7fab323159a7f06358"
+    },
+    ".local/share/waybar/modules/backlight.jsonc": {
+      "mode": 420,
+      "sha256": "26a6f3442e51f822b5fd04a7a8cae926a657eb4c3ef2d1c89e3658c80993f511"
+    },
+    ".local/share/waybar/modules/battery.jsonc": {
+      "mode": 420,
+      "sha256": "c51d72b064eeb48e0064328169cf56a1f2277897bdb91fb1a0b30e96bb0494a8"
+    },
+    ".local/share/waybar/modules/bluetooth.jsonc": {
+      "mode": 420,
+      "sha256": "7219a1433885037c6954334ea5a0f40ef439f0004accca2d250995a6d6539346"
+    },
+    ".local/share/waybar/modules/cava.jsonc": {
+      "mode": 420,
+      "sha256": "e511af370c841d4112c9e8e963d8c1fbac71e569ee51bbf7bfa094e4286c9ed7"
+    },
+    ".local/share/waybar/modules/clock.jsonc": {
+      "mode": 420,
+      "sha256": "ceb6a4b8f04a78d9a5349e65dcc62cd8e160189ab4ed77fef4ba9361a1ad4bda"
+    },
+    ".local/share/waybar/modules/cpu.jsonc": {
+      "mode": 420,
+      "sha256": "60a0f36b794f7070c2e343d5c1d1dcc29cb0b83e515d56227ce8747f53ccb38d"
+    },
+    ".local/share/waybar/modules/custom-app-launcher.jsonc": {
+      "mode": 420,
+      "sha256": "553533411391d673b359041578dd517c0f522e4bbb637b3f343b4315191ec8d2"
+    },
+    ".local/share/waybar/modules/custom-cava.jsonc": {
+      "mode": 420,
+      "sha256": "04503f84c5820e39dbdb6d2cc273066fa4c059498f2f4b7964694f47eb62ab3f"
+    },
+    ".local/share/waybar/modules/custom-clipboard.jsonc": {
+      "mode": 420,
+      "sha256": "72d7ea2ec75db516e900ad4725121314594480862c8f5a3a92cd513014e7cf6c"
+    },
+    ".local/share/waybar/modules/custom-cliphist.jsonc": {
+      "mode": 420,
+      "sha256": "8651a457343599a4ab4c908e0da653562f5a2c8f3631b0e37db374de4844e6a1"
+    },
+    ".local/share/waybar/modules/custom-cpuinfo.jsonc": {
+      "mode": 420,
+      "sha256": "8c637e23183105a4df32cb17baa2016560f6e329529c58750302ea7838eef73d"
+    },
+    ".local/share/waybar/modules/custom-display.jsonc": {
+      "mode": 420,
+      "sha256": "4fc43e17682c7c70e082c2ae455ac615090ef6251e5aca20742dc6da0ec37712"
+    },
+    ".local/share/waybar/modules/custom-dunst.jsonc": {
+      "mode": 420,
+      "sha256": "5ec7d0f174b274fb79aeb8a8bd8d1b973c7dd69124557fe3818ebb1fb8d95216"
+    },
+    ".local/share/waybar/modules/custom-gamemode.jsonc": {
+      "mode": 420,
+      "sha256": "1945221a62e4997873c2c39ad7c813734d148567c502ad956fd275f865fc3dcb"
+    },
+    ".local/share/waybar/modules/custom-github_hyde.jsonc": {
+      "mode": 420,
+      "sha256": "4f6a6401cf671f31768614225f65467e2c0dfb2f74c9424c16bf1a0922442280"
+    },
+    ".local/share/waybar/modules/custom-gpuinfo#amd.jsonc": {
+      "mode": 420,
+      "sha256": "5c6be13fdbac18322aacda6a823b92ab5816e684bed17393cbea927443ab3411"
+    },
+    ".local/share/waybar/modules/custom-gpuinfo#intel.jsonc": {
+      "mode": 420,
+      "sha256": "f27be94c2104b85c9f21b4d5eac50b09e5a84d6c70edfdc04eb0573918f0372f"
+    },
+    ".local/share/waybar/modules/custom-gpuinfo#nvidia.jsonc": {
+      "mode": 420,
+      "sha256": "29f3dbaeae32e7ef43b18de29485c9f1d7e59ad39025f36f291443161bb7d647"
+    },
+    ".local/share/waybar/modules/custom-gpuinfo.jsonc": {
+      "mode": 420,
+      "sha256": "724821efb71fcc3bb773db270a11e88ae846c8a310c2228e0944bd9be2c6c771"
+    },
+    ".local/share/waybar/modules/custom-hyde-menu.jsonc": {
+      "mode": 420,
+      "sha256": "d6ee11d743ba0725a076474bc39dc2bc722ad73004aefef6b95a73209d5b38df"
+    },
+    ".local/share/waybar/modules/custom-hyprsunset.jsonc": {
+      "mode": 420,
+      "sha256": "998c9e78dde7da5e481f2eb6837934e13d7216ee33d82b04aed9728e7634bf18"
+    },
+    ".local/share/waybar/modules/custom-keybindhint.jsonc": {
+      "mode": 420,
+      "sha256": "9b27ab014c0ea20a7f79f4fbbda6e559feca1b46659135b6a67788ccb0077b0f"
+    },
+    ".local/share/waybar/modules/custom-mediaplayer.jsonc": {
+      "mode": 420,
+      "sha256": "70738d89ff8dba261c4693e91509917f66435b17db5bf20bab1e9f17758e1219"
+    },
+    ".local/share/waybar/modules/custom-power.jsonc": {
+      "mode": 420,
+      "sha256": "45a0ff23d003ff8e17262ea16cb3d4287290cea8801f15af3762d37c1be3c9a0"
+    },
+    ".local/share/waybar/modules/custom-powermenu.jsonc": {
+      "mode": 420,
+      "sha256": "3f7de85a5871b9d797c2f5368b171c2c35f3a5587828a321df07602ac54c2761"
+    },
+    ".local/share/waybar/modules/custom-sensorsinfo.jsonc": {
+      "mode": 420,
+      "sha256": "3b90294ee38b6eebfdba2fdb902da3dc030d5bc6d7b7829e40d1fc19764045c0"
+    },
+    ".local/share/waybar/modules/custom-spotify.jsonc": {
+      "mode": 420,
+      "sha256": "5266380ec41ca6568b3b23586c5317257e02c5ad7d92889dfe3c57e67138b73d"
+    },
+    ".local/share/waybar/modules/custom-swaync.jsonc": {
+      "mode": 420,
+      "sha256": "5454ac39af88f39c496ac2628c249adca0893201836ab42c72622028173c563e"
+    },
+    ".local/share/waybar/modules/custom-theme.jsonc": {
+      "mode": 420,
+      "sha256": "db9ca72ea097cb61ea9f351d528b5f84bb71ec0cf11d34cdc4d8e20c1e73bda7"
+    },
+    ".local/share/waybar/modules/custom-updates.jsonc": {
+      "mode": 420,
+      "sha256": "4bce9553693a6a475d60154897a3c88f3e61127cd1edf44840e078cfe6f56833"
+    },
+    ".local/share/waybar/modules/custom-wallchange.jsonc": {
+      "mode": 420,
+      "sha256": "5469955f43e6b2da0491360be158846fe2f6693844fd011604a1d00a6139c38d"
+    },
+    ".local/share/waybar/modules/custom-wbar.jsonc": {
+      "mode": 420,
+      "sha256": "42db846c58a302827eaaa94438cf6d7921dd9fb34161c113734ed5402bcc529a"
+    },
+    ".local/share/waybar/modules/custom-weather.jsonc": {
+      "mode": 420,
+      "sha256": "52778c01238903d6f7c431ade8c490475079e30d8914d6c930c69603fa1b3e58"
+    },
+    ".local/share/waybar/modules/custom-workflows.jsonc": {
+      "mode": 420,
+      "sha256": "5a181be1a90f99479c789346abd71e9947249346f13973c72f5c7062c4b65462"
+    },
+    ".local/share/waybar/modules/gamemode.jsonc": {
+      "mode": 420,
+      "sha256": "fa8562111ce71b208f32456e060ba9d7478c471abfea9d6088f9461a5558614f"
+    },
+    ".local/share/waybar/modules/group-eyecare.jsonc": {
+      "mode": 420,
+      "sha256": "8235d2e1e61281021ef3e84ca57af32f2af7ab3cf358d18d997c5a3aeac279be"
+    },
+    ".local/share/waybar/modules/group-hide-tray.jsonc": {
+      "mode": 420,
+      "sha256": "eeb2505b54e68d3452593a7614a4f770e15184cdf14d7e9a575ae60d945f0c84"
+    },
+    ".local/share/waybar/modules/group-mediaplayer.jsonc": {
+      "mode": 420,
+      "sha256": "517b0ee04f6915b85570b838da7f0116824f7b298a2da2b899c10d721e201264"
+    },
+    ".local/share/waybar/modules/group-user-menu.jsonc": {
+      "mode": 420,
+      "sha256": "c05dfb2db1f78e68b3d69a7e2a1de99aaf8ccd2318722e6c837c9cc8ced3ff52"
+    },
+    ".local/share/waybar/modules/group-volumecontrol.jsonc": {
+      "mode": 420,
+      "sha256": "819864c1f740acd88077410afb36dad6c8aa6ad4dc814066e826b49643fba3f2"
+    },
+    ".local/share/waybar/modules/hyprland-language.jsonc": {
+      "mode": 420,
+      "sha256": "2253d000c5023afba88cfaabc4b52314d8463d4dbff2108382eb69b210d2b9cc"
+    },
+    ".local/share/waybar/modules/hyprland-window.jsonc": {
+      "mode": 420,
+      "sha256": "27ef76b8c2ef9145ad87d4059a4e57d22f4678299a01d3ab55da5526ce447bc9"
+    },
+    ".local/share/waybar/modules/hyprland-workspaces#kanji.jsonc": {
+      "mode": 420,
+      "sha256": "61674a0d780082a648eba2e7aa2b309b0dcdefd9d6294e4691884b4bba51b727"
+    },
+    ".local/share/waybar/modules/hyprland-workspaces#roman.jsonc": {
+      "mode": 420,
+      "sha256": "6f1d804d519c79c9e971cb8189f8d89d7688528dcac519c18245680d050c4195"
+    },
+    ".local/share/waybar/modules/hyprland-workspaces.jsonc": {
+      "mode": 420,
+      "sha256": "380433b7307ba13fe413a0b86419f190f79652e469db192ef5473ca6d5ad91cf"
+    },
+    ".local/share/waybar/modules/idle_inhibitor.jsonc": {
+      "mode": 420,
+      "sha256": "b100e0fd4512c151cdffd75b6c49a95de357982b1727fc0ed534135486acd999"
+    },
+    ".local/share/waybar/modules/image#profile.jsonc": {
+      "mode": 420,
+      "sha256": "dda6ccf60dd5b6312dfc353572f820ba6d14944166c2fff623f046200c2c2a0a"
+    },
+    ".local/share/waybar/modules/image#wallpaper.json": {
+      "mode": 420,
+      "sha256": "8f180941b12b4e028d171a047e1e5ad1a5c68b65e78dc30c48b1703df5d3183a"
+    },
+    ".local/share/waybar/modules/image#wallpaper.jsonc": {
+      "mode": 420,
+      "sha256": "ef827e1062297aa34c4d5d6a70635cd8b1a8662805cde993ca9723d9d2ea5681"
+    },
+    ".local/share/waybar/modules/memory.jsonc": {
+      "mode": 420,
+      "sha256": "77ddc9ba897793dc84d642c82bfb3f063a71a899f129805a3bce7e5fff0728eb"
+    },
+    ".local/share/waybar/modules/mpd.jsonc": {
+      "mode": 420,
+      "sha256": "ed896c2623f7733ca78fb61422f1f9497a9ac689a3ffa2552400456670fba970"
+    },
+    ".local/share/waybar/modules/mpris.jsonc": {
+      "mode": 420,
+      "sha256": "8ae9b655361102b7b3eca3ec29cc8ef84a3d27fd10f63bf1560dae1b825e5bfc"
+    },
+    ".local/share/waybar/modules/network#bandwidth.jsonc": {
+      "mode": 420,
+      "sha256": "25f1e26c03c7cae98c24e7adb306e89182e7e0d68c64cf82c5ddb6f7e0b6af8b"
+    },
+    ".local/share/waybar/modules/network.jsonc": {
+      "mode": 420,
+      "sha256": "d0b8dc0099a74f75ebab024b5eabeff83f3f4015367cd536da57cf5cc1f9d526"
+    },
+    ".local/share/waybar/modules/power-profiles-daemon.jsonc": {
+      "mode": 420,
+      "sha256": "c8b548e271474414d65f019484fc4fabf31778afec304536d9deaecdea717d5b"
+    },
+    ".local/share/waybar/modules/privacy.json": {
+      "mode": 420,
+      "sha256": "c89627a8fa2d5e19e02c4de885a0c28f208c5e2fa4a0cdbc99df8ed4e8b40612"
+    },
+    ".local/share/waybar/modules/privacy.jsonc": {
+      "mode": 420,
+      "sha256": "a1cf5c979e46a22fee1826bc315bc09892af6b9773969c8d8f27882e2558a3af"
+    },
+    ".local/share/waybar/modules/pulseaudio#microphone.jsonc": {
+      "mode": 420,
+      "sha256": "4f7a51e32343713cc020644bbb3e69fea927b4e82295579d0487d65d420dc6cd"
+    },
+    ".local/share/waybar/modules/pulseaudio.jsonc": {
+      "mode": 420,
+      "sha256": "ac60c9d40fde3b2f92b991e7f44aea32e7a5266b9d1f1ebbf972ef390fe6f293"
+    },
+    ".local/share/waybar/modules/temperature.jsonc": {
+      "mode": 420,
+      "sha256": "59934fdd2a5dceb58ad7bbf9198d675eb52f4109a8acacf00e3ab3ad05fa5ccb"
+    },
+    ".local/share/waybar/modules/tray.json": {
+      "mode": 420,
+      "sha256": "73d344ef4d096eec3358f35b4c2823a62e64481b396fb56768d3c8e5f43ca4a7"
+    },
+    ".local/share/waybar/modules/tray.jsonc": {
+      "mode": 420,
+      "sha256": "7258bcb90d2b92da3232800fa22413a8c71293fc8ee9561db914a3411755be6b"
+    },
+    ".local/share/waybar/modules/user.json": {
+      "mode": 420,
+      "sha256": "e2dc23541cc426435ee6b56f0249187cd7347386511b54570267b8e95111cca1"
+    },
+    ".local/share/waybar/modules/wlr-taskbar#windows.json": {
+      "mode": 420,
+      "sha256": "22d803a45c9a367e055a9eae940fa21bcab1984ed7bd966ce2bdee996c46c546"
+    },
+    ".local/share/waybar/modules/wlr-taskbar#windows.jsonc": {
+      "mode": 420,
+      "sha256": "8832e974d10c7ae2b9f663a51dfe85002ca29708ee4430827b64ce553d27e032"
+    },
+    ".local/share/waybar/modules/wlr-taskbar.json": {
+      "mode": 420,
+      "sha256": "a93a3e1468afd9a9e7f9b8998f1fe67727e90e7f519cf27916256c55267bf139"
+    },
+    ".local/share/waybar/modules/wlr-taskbar.jsonc": {
+      "mode": 420,
+      "sha256": "ea392814e60c0ee841fe9ce5464562a982b31deb99555d3918f3c5c2f7be76d8"
+    },
+    ".local/share/waybar/styles/backgrounds/transparent.css": {
+      "mode": 420,
+      "sha256": "44ffdf8a510a107bfd587e7976fb6733bd13207cbb134f7728b1eba508223381"
+    },
+    ".local/share/waybar/styles/borders/color/main-bg.css": {
+      "mode": 420,
+      "sha256": "417b9ee2931a2f0bde12f9c01bd8fe94dc4deaad39ac35d61ebcd17dfe910aad"
+    },
+    ".local/share/waybar/styles/borders/color/main-fg.css": {
+      "mode": 420,
+      "sha256": "961fc1d3836bc2312b0b1dd2c58513839585e1d5562d4f39c92c27e4e71b5b78"
+    },
+    ".local/share/waybar/styles/borders/color/wb-act-bg.css": {
+      "mode": 420,
+      "sha256": "5876fe9124b2fd8e9c95e2c56d0a5cb7a0f174f336674b0fdeed7f5c2638202d"
+    },
+    ".local/share/waybar/styles/borders/color/wb-act-fg.css": {
+      "mode": 420,
+      "sha256": "801fe463d6c96035e3e080cbe693fd83c8c6e37117c977f3d9f4817a71428d67"
+    },
+    ".local/share/waybar/styles/borders/color/wb-hvr-bg.css": {
+      "mode": 420,
+      "sha256": "2063701d90eddddee917630f3c9755a241b18a3f43002caed65536a0990f2889"
+    },
+    ".local/share/waybar/styles/borders/color/wb-hvr-fg.css": {
+      "mode": 420,
+      "sha256": "9c90ae4b993df303461f1f5a72c47cdf475933fc757992f951eccdf91e719386"
+    },
+    ".local/share/waybar/styles/borders/dotted-bottom.css": {
+      "mode": 420,
+      "sha256": "16a77fd382428f38c26aaace217b1c33aaba752cb310c07ad25fd2fd8550adec"
+    },
+    ".local/share/waybar/styles/borders/dotted-top.css": {
+      "mode": 420,
+      "sha256": "7dd0ad98a5b326dd8fec92e866e23bc6d73802acd2de6cfa26a49d4e73e8b874"
+    },
+    ".local/share/waybar/styles/borders/dotted.css": {
+      "mode": 420,
+      "sha256": "449cd5d58e51df689aa77a4f8611bd8f83993eaa1731dbd9f5112a133f6d5b91"
+    },
+    ".local/share/waybar/styles/borders/none.css": {
+      "mode": 420,
+      "sha256": "33e3d5e0e571b69cde395f11bdc5959e5fa55de8ba23119e929c3492cf852230"
+    },
+    ".local/share/waybar/styles/borders/solid-bottom.css": {
+      "mode": 420,
+      "sha256": "139c697733e092b1f6b16c2811d59be9b72d511be794449d318c60c7db359f0f"
+    },
+    ".local/share/waybar/styles/borders/solid-top.css": {
+      "mode": 420,
+      "sha256": "d25a600cdb147fe6b53d6984e12be66b59cb6e32f17033fb12477598b35eb4c3"
+    },
+    ".local/share/waybar/styles/borders/solid.css": {
+      "mode": 420,
+      "sha256": "5539eb1c06d831b042a8abdb5fadc564217c5cfe07d99f5b055065d3b3f636ef"
+    },
+    ".local/share/waybar/styles/classes/cpuinfo.css": {
+      "mode": 420,
+      "sha256": "0c233139af7a37f882cb8a0ee90f89c65b56572b936b038c859bee9d3c6a4534"
+    },
+    ".local/share/waybar/styles/classes/gpuinfo.css": {
+      "mode": 420,
+      "sha256": "5bbad8ec2f0c48ee2f5af55c542bb7e642f6bc649a075aaaf00e1b60e7ed8c00"
+    },
+    ".local/share/waybar/styles/defaults.css": {
+      "mode": 420,
+      "sha256": "51cbbd815d33d7717d7f86393abd544d10c758a232ada8a416485cbbc5bbfd0c"
+    },
+    ".local/share/waybar/styles/groups/leaf-inverse.css": {
+      "mode": 420,
+      "sha256": "e1925821b5d459c4e6f45e6fc84c2b4ded10b59221f816f55b121db63c0645f7"
+    },
+    ".local/share/waybar/styles/groups/leaf.css": {
+      "mode": 420,
+      "sha256": "25c2a0bb15628d3e8739adbbf599ae7c5a55971ba9970be18963d1b722df6ead"
+    },
+    ".local/share/waybar/styles/groups/pill-down.css": {
+      "mode": 420,
+      "sha256": "1943a79d881fc1f6f9457c6bed580c71d034b33eedb263e795efb6d7507bcf6f"
+    },
+    ".local/share/waybar/styles/groups/pill-in.css": {
+      "mode": 420,
+      "sha256": "503187ae9addec1da96b68af55bcdf93d01a703a190b6e973de8888c784350da"
+    },
+    ".local/share/waybar/styles/groups/pill-left.css": {
+      "mode": 420,
+      "sha256": "bc53b26bcc5def0a22f5465044416a189e04e7059a5f9e4d1489678b4da7fbbe"
+    },
+    ".local/share/waybar/styles/groups/pill-out.css": {
+      "mode": 420,
+      "sha256": "9ca3ebea113336d0000a6b761897b5556090cf6473abb3140e27c513501633a5"
+    },
+    ".local/share/waybar/styles/groups/pill-right.css": {
+      "mode": 420,
+      "sha256": "27e94b3230bd813e60aa1c3ded6ed06922a640b970b9e62f4e698d062f14311a"
+    },
+    ".local/share/waybar/styles/groups/pill-up.css": {
+      "mode": 420,
+      "sha256": "9912c00f657277d1851f74a20d28feba2818f4ae5a3da6c1a6103f671effb1f9"
+    },
+    ".local/share/waybar/styles/groups/pill.css": {
+      "mode": 420,
+      "sha256": "6f16c3df01f2de428a7d41f42a6d4c1e3374f43f5ca75a8513e9e582350edea0"
+    },
+    ".local/share/waybar/styles/hyprdots.css": {
+      "mode": 420,
+      "sha256": "01dd41b9329fe6daff7947b676c8e9136f275b48608af43ea679385618085b85"
+    },
+    ".local/share/waybar/styles/includes/border-radius.css": {
+      "mode": 420,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    ".local/share/waybar/styles/macos.css": {
+      "mode": 420,
+      "sha256": "e57501285746494a64bd13163da78f0a734a513d1ed3749520be9d8cfb2fc47c"
+    },
+    ".local/share/xdg-desktop-portal/hyprland-portals.conf": {
+      "mode": 420,
+      "sha256": "39ec7834d33c98b243b1fd334bc02c5f0e464cb79519c54ea92e327e924a19c4"
+    },
+    ".local/state/hyde/hyprland.conf": {
+      "mode": 420,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    ".local/state/hyde/hyprsunset": {
+      "mode": 420,
+      "sha256": "702e69f3a3022c41b2704210c7792c8a0fa251e4a49399a950e3dfa07a36b4ff"
+    },
+    ".local/state/hyde/lua_state/colors.lua": {
+      "mode": 384,
+      "sha256": "40bd521de275c92491e268b80a8f75a75e73e7cd830e8d059f0e30efb9c1cafd"
+    },
+    ".local/state/hyde/lua_state/hypr_theme.lua": {
+      "mode": 420,
+      "sha256": "866984c87538fa643847ab1b304870c53feddd7d6a57c1b17ef728af0587bfff"
+    },
+    ".local/state/hyde/lua_state/ui.lua": {
+      "mode": 420,
+      "sha256": "353f3d01244ff019826e03e8b14887fc2a34eb1f5f63ec64ea2fa3424105eb21"
+    },
+    ".local/state/hyde/luarocks_env.json": {
+      "mode": 420,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    ".local/state/hyde/staterc": {
+      "mode": 420,
+      "sha256": "7a09d8f25ec8b9b76dd968c2e8e3938d65c7781772f82212e2332bcbbc21dedd"
+    },
+    ".themes/Catppuccin-Latte": {
+      "link": "/home/amadeus177153/.local/share/themes/Catppuccin-Latte"
+    },
+    ".themes/Catppuccin-Mocha": {
+      "link": "/home/amadeus177153/.local/share/themes/Catppuccin-Mocha"
+    },
+    ".themes/Rose-Pine": {
+      "link": "/home/amadeus177153/.local/share/themes/Rose-Pine"
+    },
+    ".themes/Wallbash-Gtk": {
+      "link": "/home/amadeus177153/.local/share/themes/Wallbash-Gtk"
+    },
+    ".zshenv": {
+      "mode": 420,
+      "sha256": "d98658aa46cbbc85e635df008810d93447a347f687613ee3ce482fc105ecb993"
+    },
+    ".zshrc": {
+      "mode": 420,
+      "sha256": "9b34491f2fcdbdcc505145cc6722e25cdff471808ba9255b7f2e7fc7cd56a7c9"
+    }
+  },
+  "format": 1,
+  "source_home": "/home/amadeus177153"
+}

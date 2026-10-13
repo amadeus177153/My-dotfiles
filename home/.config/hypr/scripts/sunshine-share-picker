@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Automatically select the monitor Sunshine should capture.
+# xdg-desktop-portal-hyprland expects this exact stdout format.
+printf '%s\n' '[SELECTION]/screen:DP-1'

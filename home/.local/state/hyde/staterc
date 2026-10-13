@@ -1,0 +1,119 @@
+HYDE_THEME="Miku Dark Blue"
+rofiStyle="style_11"
+enableWallDcol="2"
+HYPRLOCK_LAYOUT="Hyprlock version v0.9.6
+[1;31mERR [0m]: source= globbing error: found no match
+[1;32mDEBUG [0m]:   | got iface: wl_seat v9
+[1;32mDEBUG [0m]:    > Bound to wl_seat v9
+[1;32mDEBUG [0m]:   | got iface: wl_data_device_manager v3
+[1;32mDEBUG [0m]:   | got iface: wl_compositor v6
+[1;32mDEBUG [0m]:    > Bound to wl_compositor v6
+[1;32mDEBUG [0m]:   | got iface: wl_subcompositor v1
+[1;32mDEBUG [0m]:   | got iface: wl_shm v2
+[1;32mDEBUG [0m]:    > Bound to wl_shm v2
+[1;32mDEBUG [0m]:   | got iface: wp_viewporter v1
+[1;32mDEBUG [0m]:    > Bound to wp_viewporter v1
+[1;32mDEBUG [0m]:   | got iface: wp_tearing_control_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: wp_fractional_scale_manager_v1 v1
+[1;32mDEBUG [0m]:    > Bound to wp_fractional_scale_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: zxdg_output_manager_v1 v3
+[1;32mDEBUG [0m]:   | got iface: wp_cursor_shape_manager_v1 v2
+[1;32mDEBUG [0m]:    > Bound to wp_cursor_shape_manager_v1 v2
+[1;32mDEBUG [0m]:   | got iface: zwp_idle_inhibit_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: zwp_relative_pointer_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: zxdg_decoration_manager_v1 v2
+[1;32mDEBUG [0m]:   | got iface: wp_alpha_modifier_v1 v1
+[1;32mDEBUG [0m]:   | got iface: zwlr_gamma_control_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: ext_foreign_toplevel_list_v1 v1
+[1;32mDEBUG [0m]:   | got iface: zwp_pointer_gestures_v1 v3
+[1;32mDEBUG [0m]:   | got iface: zwlr_foreign_toplevel_manager_v1 v3
+[1;32mDEBUG [0m]:   | got iface: zwp_keyboard_shortcuts_inhibit_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: zwp_text_input_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: zwp_text_input_manager_v3 v1
+[1;32mDEBUG [0m]:   | got iface: zwp_pointer_constraints_v1 v1
+[1;32mDEBUG [0m]:   | got iface: zwlr_output_power_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: xdg_activation_v1 v1
+[1;32mDEBUG [0m]:   | got iface: ext_idle_notifier_v1 v2
+[1;32mDEBUG [0m]:   | got iface: hyprland_lock_notifier_v1 v1
+[1;32mDEBUG [0m]:   | got iface: ext_session_lock_manager_v1 v1
+[1;32mDEBUG [0m]:    > Bound to ext_session_lock_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: zwp_input_method_manager_v2 v1
+[1;32mDEBUG [0m]:   | got iface: zwp_virtual_keyboard_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: zwlr_virtual_pointer_manager_v1 v2
+[1;32mDEBUG [0m]:   | got iface: zwlr_output_manager_v1 v4
+[1;32mDEBUG [0m]:   | got iface: org_kde_kwin_server_decoration_manager v1
+[1;32mDEBUG [0m]:   | got iface: hyprland_focus_grab_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: zwp_tablet_manager_v2 v1
+[1;32mDEBUG [0m]:   | got iface: zwlr_layer_shell_v1 v5
+[1;32mDEBUG [0m]:   | got iface: wp_presentation v2
+[1;32mDEBUG [0m]:   | got iface: xdg_wm_base v7
+[1;32mDEBUG [0m]:   | got iface: zwlr_data_control_manager_v1 v2
+[1;32mDEBUG [0m]:   | got iface: zwp_primary_selection_device_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: xwayland_shell_v1 v1
+[1;32mDEBUG [0m]:   | got iface: hyprland_toplevel_mapping_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: hyprland_global_shortcuts_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: xdg_wm_dialog_v1 v1
+[1;32mDEBUG [0m]:   | got iface: wp_single_pixel_buffer_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: wp_security_context_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: hyprland_ctm_control_manager_v1 v2
+[1;32mDEBUG [0m]:   | got iface: hyprland_input_capture_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: hyprland_surface_manager_v1 v2
+[1;32mDEBUG [0m]:   | got iface: wp_content_type_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: xdg_toplevel_tag_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: xdg_system_bell_v1 v1
+[1;32mDEBUG [0m]:   | got iface: vicinae_hotkey_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: ext_workspace_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: ext_data_control_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: wp_pointer_warp_v1 v1
+[1;32mDEBUG [0m]:   | got iface: wp_fifo_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: zxdg_exporter_v2 v1
+[1;32mDEBUG [0m]:   | got iface: zxdg_importer_v2 v1
+[1;32mDEBUG [0m]:   | got iface: ext_background_effect_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: wp_commit_timing_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: zwlr_screencopy_manager_v1 v3
+[1;32mDEBUG [0m]:    > Bound to zwlr_screencopy_manager_v1 v3
+[1;32mDEBUG [0m]:   | got iface: hyprland_toplevel_export_manager_v1 v2
+[1;32mDEBUG [0m]:   | got iface: ext_output_image_capture_source_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: ext_foreign_toplevel_image_capture_source_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: ext_image_copy_capture_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: wp_color_manager_v1 v3
+[1;32mDEBUG [0m]:   | got iface: wp_drm_lease_device_v1 v1
+[1;32mDEBUG [0m]:   | got iface: wp_linux_drm_syncobj_manager_v1 v1
+[1;32mDEBUG [0m]:   | got iface: wl_drm v2
+[1;32mDEBUG [0m]:   | got iface: zwp_linux_dmabuf_v1 v5
+[1;32mDEBUG [0m]:    > Bound to zwp_linux_dmabuf_v1 v5
+[1;32mDEBUG [0m]:   | got iface: wl_output v4
+[1;32mDEBUG [0m]:    > Bound to wl_output v4
+[1;32mDEBUG [0m]: Exposed seat name: Hyprland
+[1;32mDEBUG [0m]: [core] dmabufFeedbackMainDevice
+[1;32mDEBUG [0m]: output HDMI-A-1 name HDMI-A-1
+[1;32mDEBUG [0m]: output 71 description LG Electronics LG FHD 410TOWR2B369  (HDMI-A-1)
+[1;32mDEBUG [0m]: output 71 make LG Electronics model LG FHD
+[1;32mDEBUG [0m]: output 71 done
+[1;32mDEBUG [0m]: output DP-1 name DP-1
+[1;32mDEBUG [0m]: output 72 description Sceptre Tech Inc Sceptre K25 0x00000001 (DP-1)
+[1;32mDEBUG [0m]: output 72 make Sceptre Tech Inc model Sceptre K25
+[1;32mDEBUG [0m]: output 72 done
+[1;32mDEBUG [0m]: Running on Hyprland
+[1;32mDEBUG [0m]: Locking session
+[1;32mDEBUG [0m]: eglQueryDmaBufModifiersEXT found 13 mods
+[1;32mDEBUG [0m]: [bo] has 1 plane(s)
+[1;32mDEBUG [0m]: [bo] chose modifier 300000000e08014
+[1;32mDEBUG [0m]: Starting fade in
+[1;32mDEBUG [0m]: Got fractional scale: 100.0%
+[1;32mDEBUG [0m]: configure with serial 29915
+[1;32mDEBUG [0m]: Configuring surface for logical [Vector2D: x: 1920, y: 1080] and pixel [Vector2D: x: 1920, y: 1080]
+[1;32mDEBUG [0m]: Updating placeholder text: <i>Input Password...</i>
+[1;32mDEBUG [0m]: configure with serial 29916
+[1;32mDEBUG [0m]: Got dma frame with size [Vector2D: x: 1920, y: 1080]
+[1;32mDEBUG [0m]: Gathered all screencopy frames - removing dmabuf listeners
+[1;32mDEBUG [0m]: onLockLocked called
+[1;32mDEBUG [0m]: PAMPROMPT: Password:
+[1;31mERR [0m]: Invalid key down event (stray release event?)
+[1;32mDEBUG [0m]: Unlocking session
+[1;32mDEBUG [0m]: Unlocked, exiting!
+[1;31mERR [0m]: auth: pam_authenticate failed for hyprlock
+[1;32mDEBUG [0m]: Reached the end, exiting"
+WAYBAR_LAYOUT_PATH=/home/amadeus177153/.local/share/waybar/layouts/hyprdots/16.jsonc
+WAYBAR_LAYOUT_NAME=16
+WAYBAR_STYLE_PATH=/home/amadeus177153/.local/share/waybar/styles/hyprdots.css
