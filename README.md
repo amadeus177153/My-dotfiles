@@ -16,7 +16,8 @@ cd My-dotfiles
 ```
 
 Run as your normal user, not root. The package step calls sudo for Arch's
-recorded desktop packages; AUR packages require yay or paru. Install HyDE first.
+recorded desktop packages; AUR packages require yay or paru. Recorded Flatpak
+apps (currently Webcord) are installed for your user. Install HyDE first.
 The restore copies the snapshot, rebuilds HyDE's Python/Lua environments, updates
 the font cache, and checks Hyprland when its executable is available. It does
 not change GPU drivers, boot settings, disks, system PAM, or your login shell.
@@ -79,8 +80,9 @@ do not persist in the newest snapshot. Git history retains older backups.
   enabled user/system service inventories, and the local HyDE commit ID.
 
 `--install-packages` installs the recorded **desktop subset**, not every package
-on the old PC. The complete package and Flatpak lists are references for extra
-applications, games and development tools you want to reinstall. System services
+on the old PC. The complete Arch package lists are references for extra applications, games
+and development tools you want to reinstall. Recorded Flatpak apps are installed
+by the package step, without their account/session data. System services
 are inventoried only. User enable symlinks are copied; missing unit providers
 must be installed. `--enable-services` reloads user units and enables Sunshine
 if installed; it does not start a streaming session. Third-party application

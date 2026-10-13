@@ -183,7 +183,7 @@ def snapshot(home, stage):
     for name, command in inventories.items():
         (stage / 'metadata' / name).write_text(output(command))
     wanted = '''hyprland hyprlock hyprpaper hypridle hyprsunset waybar rofi-wayland rofi
-wlogout uwsm kitty dolphin brave-bin code pavucontrol btop nvtop grim slurp wl-clipboard
+wlogout uwsm kitty dolphin brave-bin code steam mpv pavucontrol btop nvtop grim slurp wl-clipboard
 cliphist jq imagemagick python uv lua luarocks rsync git zsh zsh-syntax-highlighting
 zsh-autosuggestions fastfetch starship fzf dunst swaync qt5ct qt6ct kvantum
 xdg-desktop-portal-hyprland xdg-desktop-portal-gtk polkit-gnome playerctl
@@ -244,7 +244,7 @@ def backup(args):
         run(['git', 'add', '-A', '--'] + managed, cwd=repo)
         if run(['git', 'diff', '--cached', '--quiet'], cwd=repo, check=False).returncode:
             stamp = datetime.datetime.now().astimezone().isoformat(timespec='seconds')
-            print(run(['git', 'commit', '-m', f'Portable HyDE backup: {stamp}'], cwd=repo).stdout)
+            print(run(['git', 'commit', '--quiet', '-m', f'Portable HyDE backup: {stamp}'], cwd=repo).stdout)
         else:
             print('No backup changes to commit.')
     if not args.no_push and not args.no_commit:
@@ -372,6 +372,13 @@ def install_packages(repo):
         if not helper:
             raise RuntimeError('Install yay/paru for the recorded AUR desktop packages, then rerun.')
         subprocess.run([helper, '-S', '--needed'] + foreign, check=True)
+    flatpaks = repo / 'metadata/flatpaks.tsv'
+    for line in flatpaks.read_text().splitlines():
+        app, origin, *_ = line.split('\t')
+        if origin == 'flathub':
+            subprocess.run(['flatpak', 'remote-add', '--user', '--if-not-exists', 'flathub',
+                            'https://flathub.org/repo/flathub.flatpakrepo'], check=True)
+        subprocess.run(['flatpak', 'install', '--user', '--noninteractive', origin, app], check=True)
 
 
 def restore(args):
