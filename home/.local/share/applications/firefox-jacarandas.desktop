@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Firefox Jacarandas
+Comment=Navegar mediante Tailscale y la salida Jacarandas
+Exec=/usr/bin/firefox --no-remote --profile /home/amadeus177153/.config/mozilla/firefox/jacarandas
+Icon=firefox
+Terminal=false
+Categories=Network;WebBrowser;

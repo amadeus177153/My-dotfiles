@@ -1,0 +1,19 @@
+[Unit]
+Description=Frappe local development server
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+WorkingDirectory=/home/amadeus177153/frappe/frappe-bench
+Environment="PATH=/home/amadeus177153/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin"
+ExecStartPre=/usr/bin/sleep 5
+ExecStartPre=/usr/bin/docker compose -f /home/amadeus177153/frappe/compose.yaml up -d --wait database
+ExecStart=/home/amadeus177153/frappe/start-frappe.sh
+Restart=always
+RestartSec=5
+TimeoutStartSec=240
+TimeoutStopSec=30
+KillMode=control-group
+
+[Install]
+WantedBy=default.target

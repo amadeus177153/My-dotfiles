@@ -97,7 +97,7 @@
     },
     ".cache/hyde/wall.set.png": {
       "mode": 420,
-      "sha256": "6783c09137a937489d5f78c18b72133f985ee089f451317ad45d899bc68cece7"
+      "sha256": "9532b82dc3e942f7e71082c9ea264b7477b173915a9ae37db0896079b0b11d9b"
     },
     ".config/Kvantum/kvantum.kvconfig": {
       "mode": 420,
@@ -117,7 +117,7 @@
     },
     ".config/dolphinrc": {
       "mode": 384,
-      "sha256": "561a908445b702f11608c6a8d2d58fd5217c433daceb56a2757195b61e5311da"
+      "sha256": "5d158ce7b843d6c7b02aeab73204ddefdcac388460230e59c14ee0300caf7394"
     },
     ".config/electron-flags.conf": {
       "mode": 420,
@@ -345,15 +345,15 @@
     },
     ".config/hypr/keybindings.lua": {
       "mode": 420,
-      "sha256": "22c8eb98b214f3c87c2c887753a01834d0eeac1a598b220e9fa9d0e1862c27b1"
+      "sha256": "8c9355a2a61ead2520cc2eec3521d66032f9873a4af6b1fd473195d279a1ea99"
     },
     ".config/hypr/monitors.conf": {
       "mode": 420,
-      "sha256": "b1fcbf34af1fabb7e92ab58da5ecffb50a26b3c8fac680f8e6bdfc17e5e3cb95"
+      "sha256": "680a78f0f61822ebada170f34284e4461c81fccb0c6e1ee8f707c72f39010cf9"
     },
     ".config/hypr/monitors.lua": {
       "mode": 420,
-      "sha256": "15a0cfcdb0ace1d1705847119bc53f6897e987d96611f950feefd898acd4d2ca"
+      "sha256": "9e84dd5c423c16b86d396f2b950defa01cc83cdea29548a9dd765c2f2fb63142"
     },
     ".config/hypr/nvidia.lua": {
       "mode": 420,
@@ -377,7 +377,7 @@
     },
     ".config/hypr/scripts/sunshine_res.sh": {
       "mode": 493,
-      "sha256": "36999c5762a9ae1d4ae1a88ccc607a97d1092f4425c09b0ba71c692ac8d97eae"
+      "sha256": "1a7b24622940e221a6ab090c34bdd0c7192863b577f138e0a4e2de86cc06e919"
     },
     ".config/hypr/scripts/tem.sh": {
       "mode": 493,
@@ -639,6 +639,9 @@
       "mode": 420,
       "sha256": "006919679092715a848503a1a7176303459e9c6a1aac515a1b1b4d8176e28a12"
     },
+    ".config/systemd/user/default.target.wants/frappe.service": {
+      "link": "/home/amadeus177153/.config/systemd/user/frappe.service"
+    },
     ".config/systemd/user/default.target.wants/mpd.service": {
       "link": "/usr/lib/systemd/user/mpd.service"
     },
@@ -647,6 +650,10 @@
     },
     ".config/systemd/user/default.target.wants/pipewire.service": {
       "link": "/usr/lib/systemd/user/pipewire.service"
+    },
+    ".config/systemd/user/frappe.service": {
+      "mode": 420,
+      "sha256": "4b9b48161ddc95536564c491735ab3dde5c13182f6ca88cbd823b3f2285fc2c5"
     },
     ".config/systemd/user/graphical-session.target.wants/app-dev.lizardbyte.app.Sunshine.service": {
       "link": "/usr/lib/systemd/user/app-dev.lizardbyte.app.Sunshine.service"
@@ -1554,6 +1561,10 @@
       "mode": 384,
       "sha256": "b6ffda63c3df2f8108bda548d17204c4f95d43d2f7231334619526f7d26b1096"
     },
+    ".local/share/applications/firefox-jacarandas.desktop": {
+      "mode": 420,
+      "sha256": "761dd964c46e32009b45a1a8a732f5b54a57596d3d1cae028f4c6b1291245357"
+    },
     ".local/share/applications/mpv-2.desktop": {
       "mode": 384,
       "sha256": "feb153ccb671b8f8e20c5a5fab09ffd47d29de4205a9ff2bf43aa8d68bff4325"
@@ -1561,58 +1572,6 @@
     ".local/share/applications/mpv-3.desktop": {
       "mode": 384,
       "sha256": "feb153ccb671b8f8e20c5a5fab09ffd47d29de4205a9ff2bf43aa8d68bff4325"
-    },
-    ".local/share/applications/waydroid.com.android.calculator2.desktop": {
-      "mode": 420,
-      "sha256": "745e5adf2cfedb92e33315ac7348dfc617dacfaa1d86d7c9654842af4d222029"
-    },
-    ".local/share/applications/waydroid.com.android.contacts.desktop": {
-      "mode": 420,
-      "sha256": "3d9e121ef21aa1b1160d574024fca6e9b583242abcdff217d99d701b625eefd3"
-    },
-    ".local/share/applications/waydroid.com.android.deskclock.desktop": {
-      "mode": 420,
-      "sha256": "8a2a5726bf4fac15d212cf2035a47b99b676c77e7a406271707e7239440bda9b"
-    },
-    ".local/share/applications/waydroid.com.android.documentsui.desktop": {
-      "mode": 420,
-      "sha256": "5807e65765683d8c5aef848acc8154ab0f3bf267e90306b68790a9458710aee1"
-    },
-    ".local/share/applications/waydroid.com.android.gallery3d.desktop": {
-      "mode": 420,
-      "sha256": "e563b29e773db460cda33d34f0b9335ad65669735a064c82877a6bd80f98be2e"
-    },
-    ".local/share/applications/waydroid.com.android.settings.desktop": {
-      "mode": 420,
-      "sha256": "d496f89d9b117eb4ebecece33ca1c584334359007c18b393e4238a03eb3f4275"
-    },
-    ".local/share/applications/waydroid.com.android.vending.desktop": {
-      "mode": 420,
-      "sha256": "f093db198c959299d66a82743ca4737988456600c49ac35332a982480d32a1ed"
-    },
-    ".local/share/applications/waydroid.com.nianticlabs.pokemongo.desktop": {
-      "mode": 420,
-      "sha256": "f833adf0da8567a9d4144df41a46f9b63cad7e73d888dbd0378bed47f32a3665"
-    },
-    ".local/share/applications/waydroid.org.lineageos.aperture.desktop": {
-      "mode": 420,
-      "sha256": "46e6159d1dc5029366b71cef73e119158f6e077ba815bd33147c6f1159682c8c"
-    },
-    ".local/share/applications/waydroid.org.lineageos.eleven.desktop": {
-      "mode": 420,
-      "sha256": "e2385fb8f5a85677a09551b0c2b6a5acc2bb560a339b45075d66a1d91dc819d0"
-    },
-    ".local/share/applications/waydroid.org.lineageos.etar.desktop": {
-      "mode": 420,
-      "sha256": "baaf0073921bfe9164979e5b173af73971a9fc5ce0faeac1cfba5ffa284e04d1"
-    },
-    ".local/share/applications/waydroid.org.lineageos.jelly.desktop": {
-      "mode": 420,
-      "sha256": "8ef4b7abbc3c22b8de1f6cef6bb5f0c69402570cdfd7b5335bcce671f8e41c1d"
-    },
-    ".local/share/applications/waydroid.org.lineageos.recorder.desktop": {
-      "mode": 420,
-      "sha256": "70a12c807083e85f3429a9c043ad5294a1443c378b1e80961135d26a9bfa115b"
     },
     ".local/share/fastfetch/presets/hyde/config.jsonc": {
       "mode": 420,

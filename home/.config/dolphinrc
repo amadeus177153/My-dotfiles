@@ -25,8 +25,5 @@ ToolButtonStyle=IconOnly
 [PreviewSettings]
 Plugins=kraorathumbnail,imagethumbnail,cursorthumbnail,windowsexethumbnail,ffmpegthumbs,jpegthumbnail,opendocumentthumbnail,directorythumbnail,windowsimagethumbnail,comicbookthumbnail,appimagethumbnail,audiothumbnail,exrthumbnail,svgthumbnail,djvuthumbnail,ebookthumbnail,glycin-heif,glycin-jxl,glycin-image-rs,glycin-svg
 
-[Search]
-Location=Everywhere
-
 [UiSettings]
 ColorScheme=BreezeDark

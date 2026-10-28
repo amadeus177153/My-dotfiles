@@ -178,6 +178,15 @@ bind(mainMod .. " + CONTROL + S", function()
     end
 end, { locked = true, description = d .. " steam" })
 
+bind(mainMod .. " + CONTROL + T", function()
+    local active_window = hl.get_active_window()
+    if active_window and (active_window.class or ""):lower():find("telegram", 1, true) then
+        hl.dispatch(hl.dsp.window.close({ window = active_window }))
+    else
+        hl.dispatch(hl.dsp.exec_cmd("flatpak run org.telegram.desktop"))
+    end
+end, { locked = true, description = d .. " telegram" })
+
 bind(mainMod .. " + CONTROL + A", hl.dsp.exec_cmd("pavucontrol"), { locked = true, description = d .. " pavucontrol" })
 
 bind(mainMod .. " + Escape", hl.dsp.exec_cmd("hyde-shell system.monitor.sh"), { locked = true, description = d .. " monitor del sistema" })

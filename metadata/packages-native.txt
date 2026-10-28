@@ -19,9 +19,12 @@ brightnessctl
 btop
 btrfs-progs
 caja
+certbot-dns-cloudflare
 chaotic-keyring
 chaotic-mirrorlist
 cliphist
+cloudflare-warp-bin
+cloudflared
 code
 cuda
 deepin-calculator
@@ -83,6 +86,7 @@ lzip
 mako
 mariadb
 mesa-utils
+minecraft-launcher
 mission-center
 mono
 mpc
@@ -147,6 +151,7 @@ valkey
 vim
 vkd3d
 waybar
+waypipe
 wine-staging
 wireplumber
 wl-clip-persist

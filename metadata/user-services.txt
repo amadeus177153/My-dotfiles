@@ -1,4 +1,5 @@
 app-dev.lizardbyte.app.Sunshine.service enabled enabled
+frappe.service                          enabled enabled
 mpd.service                             enabled enabled
 pipewire-pulse.service                  enabled enabled
 pipewire.service                        enabled enabled
